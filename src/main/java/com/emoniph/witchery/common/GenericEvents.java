@@ -951,6 +951,9 @@ public class GenericEvents {
       for(int slot = isWolfman?0:1; slot <= 4; ++slot) {
          ItemStack stack = player.getEquipmentInSlot(slot);
          if(stack != null && stack.getItem() != Witchery.Items.MOON_CHARM && (player.openContainer == null || player.openContainer.windowId == 0 || slot != 0)) {
+            if((slot == 0 && Config.instance().allowWerewolfHeldItem) || (slot != 0 && Config.instance().allowWerewolfWearArmor)) {
+               continue;
+            }
             player.entityDropItem(stack, 1.0F);
             player.setCurrentItemOrArmor(slot, (ItemStack)null);
          }

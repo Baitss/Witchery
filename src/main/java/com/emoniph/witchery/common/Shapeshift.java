@@ -145,14 +145,12 @@ public class Shapeshift {
 
    public void updateChargeDamage(LivingHurtEvent event, EntityPlayer player, ExtendedPlayer playerEx) {
       if(this.isWolfAnimalForm(playerEx)) {
-         if(this.itemHasDamageAttribute(player.getHeldItem())) {
+         if(this.itemHasDamageAttribute(player.getHeldItem()) && !Config.instance().allowWerewolfHandleWeapon) {
             event.ammount = 2.0F;
-         } else {
-            Shapeshift.StatBoost ACCELERATION = this.getStatBoost(player, playerEx);
-            if(ACCELERATION != null && player.isSprinting()) {
-               event.ammount += ACCELERATION.damage;
-            }
          }
+         Shapeshift.StatBoost ACCELERATION = this.getStatBoost(player, playerEx);
+         if(ACCELERATION != null && player.isSprinting()) {
+            event.ammount += ACCELERATION.damage;
       }
 
       if(playerEx.getVampireLevel() >= 3 && playerEx.getCreatureType() == TransformCreature.NONE && player.isSneaking()) {
@@ -188,7 +186,7 @@ public class Shapeshift {
    }
 
    public void rendArmor(EntityLivingBase victim, EntityPlayer player, ExtendedPlayer playerEx) {
-      if(playerEx.getCreatureType() == TransformCreature.WOLFMAN && playerEx.getWerewolfLevel() >= 9) {
+      if(playerEx.getCreatureType() == TransformCreature.WOLFMAN && playerEx.getWerewolfLevel() >= 9 && Config.instance().allowWerewolfRendArmor) {
          int slot = 1 + victim.worldObj.rand.nextInt(4);
          ItemStack armor = victim.getEquipmentInSlot(slot);
          if(armor != null) {

@@ -114,6 +114,11 @@ public class Config {
    public boolean allowChatMasquerading;
    public boolean allowNameplateMasquerading;
 
+   public boolean allowWerewolfRendArmor;
+   public boolean allowWerewolfWearArmor;
+   public boolean allowWerewolfHeldItem;
+   public boolean allowWerewolfHandleWeapon;
+
 
    public static Config instance() {
       return INSTANCE;
@@ -226,6 +231,11 @@ public class Config {
       this.naturePowerReplaceableBlocks = new ArrayList();
       String[] arr$ = replaceableBlocks;
       int len$ = replaceableBlocks.length;
+
+      this.allowWerewolfRendArmor = this.configuration.get("general", "AllowWerewolfRendArmor", true).getBoolean(true);
+      this.allowWerewolfWearArmor = this.configuration.get("general", "AllowWerewolfWearArmor", false).getBoolean(false);
+      this.allowWerewolfHeldItem = this.configuration.get("general", "AllowWerewolfHeldItem", false).getBoolean(false);
+      this.allowWerewolfHandleWeapon = this.configuration.get("general", "AllowWerewolfHandleWeapon", false).getBoolean(false);
 
       for(int i$ = 0; i$ < len$; ++i$) {
          String extra = arr$[i$];
