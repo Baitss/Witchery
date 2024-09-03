@@ -151,6 +151,7 @@ public class Shapeshift {
          Shapeshift.StatBoost ACCELERATION = this.getStatBoost(player, playerEx);
          if(ACCELERATION != null && player.isSprinting()) {
             event.ammount += ACCELERATION.damage;
+         }
       }
 
       if(playerEx.getVampireLevel() >= 3 && playerEx.getCreatureType() == TransformCreature.NONE && player.isSneaking()) {
@@ -170,7 +171,6 @@ public class Shapeshift {
       }
 
    }
-
    private boolean itemHasDamageAttribute(ItemStack item) {
       if(item == null) {
          return false;
