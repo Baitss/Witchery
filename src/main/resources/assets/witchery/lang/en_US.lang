@@ -99,7 +99,7 @@ item.witchery:polynesiacharm.tip=He talks to the animals...
 item.witchery:devilstonguecharm.name=Devils Tongue Charm
 item.witchery:devilstonguecharm.tip=Even demons find your wit|irresistible... most of the time.
 item.witchery:witchhat.name=Witches' Hat
-item.witchery:witchhat.tip=How original... a pointy hat.||{9+35% chance of second brew{0
+item.witchery:witchhat.tip=How original... a pointy hat.||§9+35% chance of second brew§0
 item.witchery:seedsbelladonna.name=Belladonna Seeds
 item.witchery:seedsmandrake.name=Mandrake Seeds
 item.witchery:seedsartichoke.name=Water Artichoke Seeds
@@ -190,61 +190,61 @@ entity.treefyd.name=Treefyd
 witchery.book.mushroomred=Red Mushroom
 witchery.book.mushroombrown=Brown Mushroom
 witchery.book.altarpower=Altar power
-witchery.book.oven1={o{lWitchcraft{r{r{o: Collecting Fumes{r||The witches oven gives a practitioner of the art, the opportunity to collect the fumes that may be produced when cooking.||Remember that the oven cannot smelt ore, but it does cook a little faster than a furnace.
-witchery.book.oven2=Place {8Clay Jars{0 into the oven when cooking to collect the fumes:||Food  {6Foul Fume{0|Wood  {6Foul Fume{0||Cooking {2Saplings{0 produces {8Wood Ash{0 and may also release the gaseous essence of the tree.
-witchery.book.oven3={nSapling Fumes{r||Oak  {8Exhale of the Horned One{0|Birch  {8Breath of the Goddess{0|Spruce  {8Hint of Rebirth{0|Rowan  {8Whiff of Magic{0|Hawthorn  {8Odour of Purity{0|Alder  {8Reek of Misfortune{0
-witchery.book.distillery1={o{lWitchcraft{r{r{o: Distilling{r||{81.{0 Ensure the distillery is near to an Altar to get power.|{82.{0 Place the items into the distillery along with the required number of clay jars.|{83.{0 Wait for the distillation process to complete.
+witchery.book.oven1=§o§lWitchcraft§r§r§o: Collecting Fumes§r||The witches oven gives a practitioner of the art, the opportunity to collect the fumes that may be produced when cooking.||Remember that the oven cannot smelt ore, but it does cook a little faster than a furnace.
+witchery.book.oven2=Place §8Clay Jars§0 into the oven when cooking to collect the fumes:||Food  §6Foul Fume§0|Wood  §6Foul Fume§0||Cooking §2Saplings§0 produces §8Wood Ash§0 and may also release the gaseous essence of the tree.
+witchery.book.oven3=§nSapling Fumes§r||Oak  §8Exhale of the Horned One§0|Birch  §8Breath of the Goddess§0|Spruce  §8Hint of Rebirth§0|Rowan  §8Whiff of Magic§0|Hawthorn  §8Odour of Purity§0|Alder  §8Reek of Misfortune§0
+witchery.book.distillery1=§o§lWitchcraft§r§r§o: Distilling§r||§81.§0 Ensure the distillery is near to an Altar to get power.|§82.§0 Place the items into the distillery along with the required number of clay jars.|§83.§0 Wait for the distillation process to complete.
 witchery.book.distillery.jars=Clay Jars
-witchery.book.distillery.items={nDistill these items{r
-witchery.book.distillery.results={nResultant distillates{r
-witchery.book.brews1={o{lWitchcraft{r{r{o: Brews & Infusions{r||{81.{0 Throw the ingredients into a heated, water-filled kettle. Altars provide power, if needed.|{82.{0 Fill the brew into an empty glass bottle.|{83.{0 Use infusions in a Rite of Infusion; but remember, {0Death is almost always assured{0.
-witchery.book.rites1={o{lWitchcraft{r{r{o: Circle Magic{r||{81.{0 Draw circles using colored chalk, with a heart glyph at the centre. An altar is often needed for power.|{82.{0 Drop the foci items into the circle.|{83.{0 Activate the heart glyph.
-witchery.book.rites2=Chalk & sizes:|7x7, 11x11, 15x15|{7Ritual{0, {5Otherwhere{0, {4Infernal{0
+witchery.book.distillery.items=§nDistill these items§r
+witchery.book.distillery.results=§nResultant distillates§r
+witchery.book.brews1=§o§lWitchcraft§r§r§o: Brews & Infusions§r||§81.§0 Throw the ingredients into a heated, water-filled kettle. Altars provide power, if needed.|§82.§0 Fill the brew into an empty glass bottle.|§83.§0 Use infusions in a Rite of Infusion; but remember, §0Death is almost always assured§0.
+witchery.book.rites1=§o§lWitchcraft§r§r§o: Circle Magic§r||§81.§0 Draw circles using colored chalk, with a heart glyph at the centre. An altar is often needed for power.|§82.§0 Drop the foci items into the circle.|§83.§0 Activate the heart glyph.
+witchery.book.rites2=Chalk & sizes:|7x7, 11x11, 15x15|§7Ritual§0, §5Otherwhere§0, §4Infernal§0
 witchery.book.rites.anycircle=Any circles allowed
 
-witchery.rite.bindcircle=Rite of Binding{r||Pulls the circles into the talisman.
-witchery.rite.bindcircleportable=Rite of Binding{r||Pulls the circles into the talisman.
-witchery.rite.bindwaystone=Rite of Binding{r||Binds the Waystone to the location of the ritual.
-witchery.rite.chargestone=Rite of Charging{r||Charges the Attuned Stone.
-witchery.rite.infusionrecharge=Rite of Charging{r||Recharge infused power by standing in the circle.  Lasts indefinitely, but requires 40 power/s.
-witchery.rite.teleporttowaystone=Rite of Transposition{r||Teleport to the bound Waystone's location.
-witchery.rite.teleportentity=Rite of Transposition{r||Summon the taglock kit's bound creature or player.
-witchery.rite.teleportironore=Rite of Transposition{r||Transpose iron from the ore below.
-witchery.rite.protection=Rite of Sanctity{r||Monsters cannot enter the circle. Lasts indefinitely, but requires 16 power/s.
-witchery.rite.imprisonment=Rite of Imprisonment{r||Monsters cannot leave the circle. Lasts indefinitely, but requires 16 power/s.
-witchery.rite.barrier=Rite of Protection{r||Conjure a dome, impenetrable to monsters. Lasts indefinitely, but requires 24 power/s.
-witchery.rite.barrierlarge=Rite of Protection{r||Conjure a dome, impenetrable to all. Lasts indefinitely, but requires 28 power/s.
-witchery.rite.barrierportable=Rite of Protection{r||Conjure an impenetrable dome for 60 seconds.
-witchery.rite.volcano=Rite of Earth's Wrath{r||Raise a volcano. A lava pool must lie below.
-witchery.rite.storm=Rite of Sky's Wrath{r||Call a focused lightning storm inside the circle.
-witchery.rite.stormlarge=Rite of Sky's Wrath{r||Call a focused lightning storm outside the circle.
-witchery.rite.stormportable=Rite of Sky's Wrath{r||Call a focused lightnig storm outside the circle.
-witchery.rite.eclipse=Rite of Total Eclipse{r||Block out the sun.
-witchery.rite.eclipseportable=Rite of Total Eclipse{r||Block out the sun.
-witchery.rite.partearth=Rite of Broken Earth{r||Part the earth, the position of the foci controls the direction.
-witchery.rite.raiseearth=Rite of Moving Earth{r||Raise a column of earth.
-witchery.rite.banishdemonportable=Rite of Banishing{r||Send nearby Demons back to the Pit.
-witchery.rite.banishdemon=Rite of Banishing{r||Send nearby Demons back to the Pit.
-witchery.rite.summondemon=Rite of Summoning{r||Call forth a Demon. The inner area must be clear 7x7x4 blocks!
-witchery.rite.summondemonexpensive=Rite of Summoning{r||Call forth a Demon. The inner area must be clear 7x7x4 blocks!
-witchery.rite.summonwither=Rite of Summoning{r||Call forth a Wither. The inner area must be clear 7x7x4 blocks!
-witchery.rite.summonwitherexpensive=Rite of Summoning{r||Call forth a Wither. The inner area must be clear 7x7x4 blocks!
-witchery.rite.infusionlight=Rite of Infusion{r||You must stand in the circle.
-witchery.rite.infusionearth=Rite of Infusion{r||You must stand in the circle.
-witchery.rite.infusionender=Rite of Infusion{r||You must stand in the circle.
-witchery.rite.infusionhell=Rite of Infusion{r||You must stand in the circle.
-witchery.rite.infusionsky=Rite of Infusion{r||Perform at night.
-witchery.rite.necrostone=Rite of Necromancy{r||Creates a Necromantic Stone. Perform at night.
-witchery.rite.summonfamiliar=Rite of Summoning{r||Summons a familiar to find things. Try giving the familiar a diamond! The inner area must be clear 7x7x4 blocks!
-witchery.rite.bindwaystonecopy=Rite of Binding{r||Binds the Waystone location on one waystone to another waystone.
-witchery.rite.fertility=Rite of Fertility{r||Makes nearby land fertile. Heals sick villagers.
-witchery.rite.fertilityportable=Rite of Fertility{r||Makes nearby land fertile. Heals sick villagers.
-witchery.rite.curseblight=Curse of Blight{r||Makes nearby land infertile and causes sickness.
-witchery.rite.curseblindness=Curse of Blindness{r||Makes nearby creatures blind.
-witchery.rite.hellonearth=Curse of Hell on Earth{r||Only works in the Overworld at night, requires 200 power/s. 
-witchery.rite.summonwitch=Rite of Summoning{r||Summon a witch. The inner area must be clear 7x7x4 blocks!
-witchery.rite.bindwaystoneportable=Rite of Binding{r||Binds the Waystone to the location of the ritual.
-witchery.rite.bindwaystonecopyportable=Rite of Binding{r||Binds the Waystone location on one waystone to another waystone.
+witchery.rite.bindcircle=Rite of Binding§r||Pulls the circles into the talisman.
+witchery.rite.bindcircleportable=Rite of Binding§r||Pulls the circles into the talisman.
+witchery.rite.bindwaystone=Rite of Binding§r||Binds the Waystone to the location of the ritual.
+witchery.rite.chargestone=Rite of Charging§r||Charges the Attuned Stone.
+witchery.rite.infusionrecharge=Rite of Charging§r||Recharge infused power by standing in the circle.  Lasts indefinitely, but requires 40 power/s.
+witchery.rite.teleporttowaystone=Rite of Transposition§r||Teleport to the bound Waystone's location.
+witchery.rite.teleportentity=Rite of Transposition§r||Summon the taglock kit's bound creature or player.
+witchery.rite.teleportironore=Rite of Transposition§r||Transpose iron from the ore below.
+witchery.rite.protection=Rite of Sanctity§r||Monsters cannot enter the circle. Lasts indefinitely, but requires 16 power/s.
+witchery.rite.imprisonment=Rite of Imprisonment§r||Monsters cannot leave the circle. Lasts indefinitely, but requires 16 power/s.
+witchery.rite.barrier=Rite of Protection§r||Conjure a dome, impenetrable to monsters. Lasts indefinitely, but requires 24 power/s.
+witchery.rite.barrierlarge=Rite of Protection§r||Conjure a dome, impenetrable to all. Lasts indefinitely, but requires 28 power/s.
+witchery.rite.barrierportable=Rite of Protection§r||Conjure an impenetrable dome for 60 seconds.
+witchery.rite.volcano=Rite of Earth's Wrath§r||Raise a volcano. A lava pool must lie below.
+witchery.rite.storm=Rite of Sky's Wrath§r||Call a focused lightning storm inside the circle.
+witchery.rite.stormlarge=Rite of Sky's Wrath§r||Call a focused lightning storm outside the circle.
+witchery.rite.stormportable=Rite of Sky's Wrath§r||Call a focused lightnig storm outside the circle.
+witchery.rite.eclipse=Rite of Total Eclipse§r||Block out the sun.
+witchery.rite.eclipseportable=Rite of Total Eclipse§r||Block out the sun.
+witchery.rite.partearth=Rite of Broken Earth§r||Part the earth, the position of the foci controls the direction.
+witchery.rite.raiseearth=Rite of Moving Earth§r||Raise a column of earth.
+witchery.rite.banishdemonportable=Rite of Banishing§r||Send nearby Demons back to the Pit.
+witchery.rite.banishdemon=Rite of Banishing§r||Send nearby Demons back to the Pit.
+witchery.rite.summondemon=Rite of Summoning§r||Call forth a Demon. The inner area must be clear 7x7x4 blocks!
+witchery.rite.summondemonexpensive=Rite of Summoning§r||Call forth a Demon. The inner area must be clear 7x7x4 blocks!
+witchery.rite.summonwither=Rite of Summoning§r||Call forth a Wither. The inner area must be clear 7x7x4 blocks!
+witchery.rite.summonwitherexpensive=Rite of Summoning§r||Call forth a Wither. The inner area must be clear 7x7x4 blocks!
+witchery.rite.infusionlight=Rite of Infusion§r||You must stand in the circle.
+witchery.rite.infusionearth=Rite of Infusion§r||You must stand in the circle.
+witchery.rite.infusionender=Rite of Infusion§r||You must stand in the circle.
+witchery.rite.infusionhell=Rite of Infusion§r||You must stand in the circle.
+witchery.rite.infusionsky=Rite of Infusion§r||Perform at night.
+witchery.rite.necrostone=Rite of Necromancy§r||Creates a Necromantic Stone. Perform at night.
+witchery.rite.summonfamiliar=Rite of Summoning§r||Summons a familiar to find things. Try giving the familiar a diamond! The inner area must be clear 7x7x4 blocks!
+witchery.rite.bindwaystonecopy=Rite of Binding§r||Binds the Waystone location on one waystone to another waystone.
+witchery.rite.fertility=Rite of Fertility§r||Makes nearby land fertile. Heals sick villagers.
+witchery.rite.fertilityportable=Rite of Fertility§r||Makes nearby land fertile. Heals sick villagers.
+witchery.rite.curseblight=Curse of Blight§r||Makes nearby land infertile and causes sickness.
+witchery.rite.curseblindness=Curse of Blindness§r||Makes nearby creatures blind.
+witchery.rite.hellonearth=Curse of Hell on Earth§r||Only works in the Overworld at night, requires 200 power/s. 
+witchery.rite.summonwitch=Rite of Summoning§r||Summon a witch. The inner area must be clear 7x7x4 blocks!
+witchery.rite.bindwaystoneportable=Rite of Binding§r||Binds the Waystone to the location of the ritual.
+witchery.rite.bindwaystonecopyportable=Rite of Binding§r||Binds the Waystone location on one waystone to another waystone.
 
 witchery.infuse.cansetrecall=Release mouse button to set Recall Point.
 witchery.infuse.setrecall=- Recall Point set to %s (%s, %s, %s).
@@ -256,19 +256,19 @@ witchery.familiar.foundsomething=OINK! %s, %s, %s.
 witchery.rite.nullfield=Ritual cannot begin, circle magic is being nullified in this area.
 tile.witchery:voidbramble.name=Void Bramble
 
-witchery.rite.naturespower=Rite of Nature's Power{r||Release nature on a barren area.
+witchery.rite.naturespower=Rite of Nature's Power§r||Release nature on a barren area.
 
 item.witchery:witchrobe.name=Witches Robes
-item.witchery:witchrobe.tip=For the discerning witch about town.||{5Creepers will ignore the wearer.{0||{9+35% chance of second brew (except necromantic){0
+item.witchery:witchrobe.tip=For the discerning witch about town.||§5Creepers will ignore the wearer.§0||§9+35% chance of second brew (except necromantic)§0
 
 item.witchery:necromancerrobe.name=Necromancer Robes
-item.witchery:necromancerrobe.tip=Keeps the undead at bay.||{5Undead will generally ignore the wearer.{0||{9+35% chance of second necromantic brew{0
+item.witchery:necromancerrobe.tip=Keeps the undead at bay.||§5Undead will generally ignore the wearer.§0||§9+35% chance of second necromantic brew§0
 
 item.witchery:ingredient.creeperHeart.name=Creeper Heart
 tile.witchery:glintweed.name=Glint Weed
 item.witchery:ingredient.brewLove.name=Brew of Love
 
-witchery.rite.priorincarnation=Rite of Prior Incarnation{r||Summon a prior incarnation of a player (and their items) near to where they died.
+witchery.rite.priorincarnation=Rite of Prior Incarnation§r||Summon a prior incarnation of a player (and their items) near to where they died.
 
 witchery.structure.apothecary.name=Apothecary
 
@@ -306,7 +306,7 @@ tile.witchery:leechchest.name=Leech Chest
 tile.witcheryLeechChest.playernotloggedin=Cannot get taglocks for the following players not in this world: %s.
 tile.witcheryLeechChest.onlyowntaglock=Cannot remove your own taglock from the chest.
 
-witchery.book.herbology1={o{lWitchcraft{r{r{o: Herbology{r||Many common plants are used in the preparation of brews and magicks, this book details those rare or exceptional plants not known to the common folk.
+witchery.book.herbology1=§o§lWitchcraft§r§r§o: Herbology§r||Many common plants are used in the preparation of brews and magicks, this book details those rare or exceptional plants not known to the common folk.
 witchery.book.herbology.mandrake=It's parsnip-shaped root has the look of a man. Harvest at night, lest it waken and scream. It grows in tilled earth in stages. Tall grass yields seeds. 
 witchery.book.herbology.belladonna=Deadly nightshade, so is this plant known, and deadly poisons from it grown. It grows in tilled earth in stages. Tall grass yields seeds.
 witchery.book.herbology.snowbell=A curious plant, cold as the snow, freezes moisture as it grows. It grows in tilled earth in stages. Tall grass yields seeds.
@@ -319,10 +319,10 @@ witchery.book.herbology.rowan=The rowan, or mountain-ash has an affinity with ma
 witchery.book.herbology.alder=The alder wood appears to bleed when cut, this tree brings misfortune to all. Mutate the sapling from another plant with Mutandis.
 witchery.book.herbology.hawthorn=Hawthorn is the tree of purity, it has a long history in the field of herbalism. Mutate the sapling from another plant with Mutandis.
 
-witchery.rite.infusiontree=Rite of Infusion{r||Infuse a mystic branch. Perform at night.
-witchery.rite.cursecreature1=Curse of Misfortune{r||Curse the taglocked being. Perform in a storm.
-witchery.rite.removecurse1=Rite of Remove Curse{r||Cleanse the taglocked being of misfortune. Things may get worse.
-witchery.rite.cookfood=Rite of Broiling{r||Cooks any food placed in the circle. May overcook food.
+witchery.rite.infusiontree=Rite of Infusion§r||Infuse a mystic branch. Perform at night.
+witchery.rite.cursecreature1=Curse of Misfortune§r||Curse the taglocked being. Perform in a storm.
+witchery.rite.removecurse1=Rite of Remove Curse§r||Cleanse the taglocked being of misfortune. Things may get worse.
+witchery.rite.cookfood=Rite of Broiling§r||Cooks any food placed in the circle. May overcook food.
 witchery.rite.obstructedcircle=The area around the central glyph is not clear of blocks. 
 
 witchery.infuse.branch.nocharges=You are too low on power to draw this symbol.
@@ -361,8 +361,8 @@ witchery.taglockkit.taglockdiscovered=Someone just tried to take a taglock from 
 
 item.witchery:ingredient.doorKeyring.name=Rowan Keyring
 tile.witchery:statuegoddess.name=Statue of The Goddess
-witchery.rite.curseinsanity1=Curse of Insanity{r||Curse the taglocked being with monster visions. Perform in a storm.
-witchery.rite.removeinsanity1=Rite of Remove Curse{r||Cleanse the taglocked being of insanity. Things may get worse.
+witchery.rite.curseinsanity1=Curse of Insanity§r||Curse the taglocked being with monster visions. Perform in a storm.
+witchery.rite.removeinsanity1=Rite of Remove Curse§r||Cleanse the taglocked being of insanity. Things may get worse.
 tile.witcheryStatusGoddess.curemisfortune=The Goddess cures your misfortune.
 tile.witcheryStatusGoddess.cureinsanity=The Goddess cures your insanity.
 entity.witchery.illusionCreeper.name=Creeper
@@ -382,9 +382,9 @@ entity.witchery.louse.name=Parasytic Louse
 
 item.witchery:louse.name=Parasytic Louse
 
-witchery.rite.bindfamiliar=Rite of Binding{r||Bind a tamed owl, toad or cat as a familiar.
-witchery.rite.callfamiliar=Rite of Summoning{r||Summon your familiar that has been dismissed or killed. 
-witchery.rite.corruptvoodooprotection=Curse of Corrupt Poppet{r||Destroy voodoo protection of taglocked being. Needs cat familiar. 
+witchery.rite.bindfamiliar=Rite of Binding§r||Bind a tamed owl, toad or cat as a familiar.
+witchery.rite.callfamiliar=Rite of Summoning§r||Summon your familiar that has been dismissed or killed. 
+witchery.rite.corruptvoodooprotection=Curse of Corrupt Poppet§r||Destroy voodoo protection of taglocked being. Needs cat familiar. 
 witchery.rite.requirescursemastery=This rite can only be performed with a cat familiar.
 
 item.witchery:ingredient.brewFrogsTongue.name=Brew of Frogs Tongue
@@ -409,7 +409,7 @@ entity.witchery.babayaga.name=Baba Yaga
 tile.witchery:crystalball.name=Crystal Ball
 item.witchery:ingredient.quartzSphere.name=Quartz Sphere
 item.witchery:ingredient.happenstanceOil.name=Happenstance Oil
-witchery.rite.infusionfuture=Rite of Infusion{r||Infuse a Crystal Ball to see the future. Perform at night.
+witchery.rite.infusionfuture=Rite of Infusion§r||Infuse a Crystal Ball to see the future. Perform at night.
 
 witchery.prediction.recharging=The crystal ball is inert for the moment.
 witchery.prediction.nopower=The crystal ball cannot get enough power from a nearby altar.
@@ -437,8 +437,8 @@ tile.witchery:bramble.ender.name=Ender Bramble
 tile.witchery:bramble.wild.name=Wild Bramble
 tile.witchery:bloodrose.name=Blood Poppy
 
-witchery.rite.cursesinking1=Curse of Sinking{r||Curse the taglocked being with extra weight. Perform in a storm.
-witchery.rite.removesinking1=Rite of Remove Curse{r||Cleanse the taglocked being of sinking. Things may get worse.
+witchery.rite.cursesinking1=Curse of Sinking§r||Curse the taglocked being with extra weight. Perform in a storm.
+witchery.rite.removesinking1=Rite of Remove Curse§r||Cleanse the taglocked being of sinking. Things may get worse.
 tile.witcheryStatusGoddess.curesinking=The Goddess cures your sinking problem.
 
 witchery.book.herbology.wildbramble=This thorny bramble spreads around, when you try to pull it down. Mutate this plant from cactus and spanish moss.
@@ -446,18 +446,18 @@ witchery.book.herbology.bloodrose=In a witches garden keep in mind, a scratch fr
 
 entity.witchery.covenwitch.name=Coven Witch
 item.witchery:ingredient.seerStone.name=Seer Stone
-witchery.rite.infusionseerstone=Rite of Infusion{r||Infuse a stone to communicate in a coven. Perform at night.
-witchery.rite.climatechange=Rite of Shifting Seasons{r||Pick Biome with biome foci and glowstone. Coven of 4 or more.
-witchery.rite.iceshell=Rite of Icy Expansion{r||Create an icy sphere. Coven of 2 or more.
-witchery.rite.curseoverheating=Curse of Overheating{r||Curse the taglocked being to overheat.
-witchery.rite.cureoverheating=Rite of Remove Curse{r||Cleanse the taglocked being of overheating. Things may get worse.
+witchery.rite.infusionseerstone=Rite of Infusion§r||Infuse a stone to communicate in a coven. Perform at night.
+witchery.rite.climatechange=Rite of Shifting Seasons§r||Pick Biome with biome foci and glowstone. Coven of 4 or more.
+witchery.rite.iceshell=Rite of Icy Expansion§r||Create an icy sphere. Coven of 2 or more.
+witchery.rite.curseoverheating=Curse of Overheating§r||Curse the taglocked being to overheat.
+witchery.rite.cureoverheating=Rite of Remove Curse§r||Cleanse the taglocked being of overheating. Things may get worse.
 tile.witcheryStatusGoddess.cureoverheating=The Goddess cures your temperature problem.
 witchery.rite.wrongdimension=The rite cannot be performed in this dimension.
 witchery.rite.coventoosmall=You require more coven members to perform this rite.
 witchery.rite.missingbiomefoci=Missing an item to represent the desired biome.
-witchery.rite.rainoffrogs=Curse of Raining Toads{r||Rain poisonous toads. Coven of 1 or more.
-witchery.rite.glyphictransform=Rite of Glyphic Transformation{r||Drop chalk of the desired color, 1=small, 2=medium, 3=large.
-witchery.rite.callbeasts=Rite of Beastial Call{r||Call animals. Coven of 3 or more.
+witchery.rite.rainoffrogs=Curse of Raining Toads§r||Rain poisonous toads. Coven of 1 or more.
+witchery.rite.glyphictransform=Rite of Glyphic Transformation§r||Drop chalk of the desired color, 1=small, 2=medium, 3=large.
+witchery.rite.callbeasts=Rite of Beastial Call§r||Call animals. Coven of 3 or more.
 
 witchery.witch.pet=%s's pet
 witchery.witch.petflesh=%s's pet's flesh
@@ -507,11 +507,11 @@ item.witchery:ingredient.brewFlowingSpirit.name=Brew of Flowing Spirit
 item.witchery:ingredient.weaveIntensity.name=Dream Weaver of Intensity
 item.witchery:bucketspirit.name=Spirit Bucket
 item.witchery:bitingbelt.name=Biting Belt
-item.witchery:bitingbelt.tip=Careful... it bites.||{5Craft with up to 2 potions that get{0|{5administered when hit.{0
+item.witchery:bitingbelt.tip=Careful... it bites.||§5Craft with up to 2 potions that get§0|§5administered when hit.§0
 
 witchery.brew.flowingspirit=Only brew in the Spirit World
 
-witchery.rite.manifest=Rite of Manifestation{r||Manifest as a ghost from the Spirit World.
+witchery.rite.manifest=Rite of Manifestation§r||Manifest as a ghost from the Spirit World.
 
 witchery.book.herbology.somniancotton=A make-believe plant that only grows, in the deepest of sleep, where ones dreams go.
 
@@ -523,20 +523,20 @@ witchery.rite.noplacelikehome=there's no place like home
 witchery.rite.unknownchant=Unknown chant
 witchery.rite.manifestation.countdown=You feel more corporeal, only %s seconds remain.
 witchery.rite.slippersoncooldown=Nothing happens (wait %s minute(s)).
-witchery.rite.forestation=Rite of the Forest{r||Grow a forest, replace the sapling for the desired type.
+witchery.rite.forestation=Rite of the Forest§r||Grow a forest, replace the sapling for the desired type.
 witchery.rite.toofaraway=The rite cannot be performed so far away (a large coven may be needed).
 
-item.witchery:iceslippers.tip=Cool to the touch.||{5Freezes nearby water and{0|{5turns lava to obsidian (damages shoes){0
+item.witchery:iceslippers.tip=Cool to the touch.||§5Freezes nearby water and§0|§5turns lava to obsidian (damages shoes)§0
 item.witchery:brewbag.name=Brew Bag
 item.witchery:huntsmanspear.name=Spear of the Huntsman
-item.witchery:huntsmanspear.tip={5Can summon a wolf, if struck while blocking{0.
+item.witchery:huntsmanspear.tip=§5Can summon a wolf, if struck while blocking§0.
 item.witchery:barkbelt.name=Bark Belt
-item.witchery:barkbelt.tip=So this is how an Ent feels.||{5Grow bark pieces when standing on grass or mycellium{0|{5Bark pieces mitigate hits.{0
+item.witchery:barkbelt.tip=So this is how an Ent feels.||§5Grow bark pieces when standing on grass or mycellium§0|§5Bark pieces mitigate hits.§0
 item.witchery:rubyslippers.name=Ruby Slippers
-item.witchery:rubyslippers.tip=There's no place like home.||{5Teleport using a waystone (1 min cooldown){0|{5Teleport to bed (30 min cooldown){0
+item.witchery:rubyslippers.tip=There's no place like home.||§5Teleport using a waystone (1 min cooldown)§0|§5Teleport to bed (30 min cooldown)§0
 item.witchery:seepingshoes.name=Seeping Shoes
-item.witchery:seepingshoes.tip=Cave spider's bane.||{5Remove poison effects when standing on ground{0
-item.witcheryTaglockKit.boundto=Bound: {5%s{0
+item.witchery:seepingshoes.tip=Cave spider's bane.||§5Remove poison effects when standing on ground§0
+item.witcheryTaglockKit.boundto=Bound: §5%s§0
 item.witcheryTaglockKit.unbound=Not bound
 
 item.witchery:ingredient.bookBiomes.name=Book of Biomes
@@ -549,10 +549,10 @@ item.witchery:ingredient.charmDisruptedDreams.name=Charm of Fanciful Thinking
 tile.witcheryStatusGoddess.curenightmare=The Goddess cures your nightmare.
 witchery.item.seerstone.nightmare=Curse of Waking Nightmare (%d)
 
-witchery.rite.cursenightmare=Curse of Waking Nightmare{r||Perform in a storm.
-witchery.rite.curenightmare=Rite of Remove Curse{r||Cleanse the taglocked being of nightmares. Things may get worse.
+witchery.rite.cursenightmare=Curse of Waking Nightmare§r||Perform in a storm.
+witchery.rite.curenightmare=Rite of Remove Curse§r||Cleanse the taglocked being of nightmares. Things may get worse.
 
-witchery.book.biomes1={o{lBook of Biomes{r{r||Understanding the biomes of the world is the first step to changing them. In these pages can be found the foci items and glowstone dust cost of each biome needed for the {oRite of Shifting Seasons{r.
+witchery.book.biomes1=§o§lBook of Biomes§r§r||Understanding the biomes of the world is the first step to changing them. In these pages can be found the foci items and glowstone dust cost of each biome needed for the §oRite of Shifting Seasons§r.
 witchery.book.biomes.foci=Foci
 witchery.book.biomes.forest.name=Forest
 witchery.book.biomes.forest.item=Oak Sapling
@@ -581,7 +581,7 @@ witchery.book.biomes.mushroom.item=Red Mushroom
 witchery.book.biomes.magical.name=Magical
 witchery.book.biomes.magical.item=Skeleton Skull
 
-witchery.book.wands1={o{lWitchcraft{r{r{o: Symbology{r||Drawing symbols with a {oMystic Branch{r, allows a practitioner to sculpt natural energies.||Only {oInfused{r practitioners can use this type of magic.||Forbidden curses require the {oInfernal Infusion{r.
+witchery.book.wands1=§o§lWitchcraft§r§r§o: Symbology§r||Drawing symbols with a §oMystic Branch§r, allows a practitioner to sculpt natural energies.||Only §oInfused§r practitioners can use this type of magic.||Forbidden curses require the §oInfernal Infusion§r.
 witchery.book.wands.strokes=Strokes
 witchery.book.wands.stroke.0=Up
 witchery.book.wands.stroke.1=Down
@@ -595,11 +595,11 @@ witchery.book.wands.stroke.7=Down-Right
 witchery.pott.accio.info=Pull a dropped item.
 witchery.pott.aguamenti.info=Create water.
 witchery.pott.alohomora.info=Open a locked door.
-witchery.pott.avadakedavra.info={4Forbidden{0: Killing curse.
+witchery.pott.avadakedavra.info=§4Forbidden§0: Killing curse.
 witchery.pott.caveinimicum.info=Strengthen a block.
 witchery.pott.colloportus.info=Lock a door.
 witchery.pott.confundus.info=Cause confusion.
-witchery.pott.crucio.info={4Forbidden{0: Torture.
+witchery.pott.crucio.info=§4Forbidden§0: Torture.
 witchery.pott.defodio.info=Dig.
 witchery.pott.ennervate.info=Counter Stupify.
 witchery.pott.episkey.info=Minor healing.
@@ -607,7 +607,7 @@ witchery.pott.expelliarmus.info=Disarm the target.
 witchery.pott.flagrate.info=Draw an infernal rune.
 witchery.pott.flipendo.info=Push the target away.
 witchery.pott.impedimenta.info=Slows the target.
-witchery.pott.imperio.info={4Forbidden{0: Mind control.
+witchery.pott.imperio.info=§4Forbidden§0: Mind control.
 witchery.pott.incendio.info=Start a fire.
 witchery.pott.lumos.info=Create light.
 witchery.pott.nox.info=Extinguish light.
@@ -619,7 +619,7 @@ item.witchery:poppet.protectArmor.name=Armor Protection Poppet
 
 
 item.witchery:babashat.name=Baba Yaga's Hat
-item.witchery:babashat.tip={5Infused players have a chance to be{0|{5teleported instead of taking a hit{0||{9+25% chance of second brew{0|{9+25% chance of third brew{0
+item.witchery:babashat.tip=§5Infused players have a chance to be§0|§5teleported instead of taking a hit§0||§9+25% chance of second brew§0|§9+25% chance of third brew§0
 item.witchery:boline.name=Boline
 item.witchery:boline.tip=Like shears, but can harvest|trapped plants and cobwebs.
 
@@ -692,11 +692,11 @@ item.witchery:ingredient.graveyardDust.name=Graveyard Dust
 item.witchery.swordofdeath.customname=Death's Backup Sword
 item.witchery.horseofdeath.customname=Binky
 
-witchery.rite.infusebrewsoaring=Rite of Infusion{r||Infuse the Brew of Soaring.
-witchery.rite.infusebrewgrave=Rite of Infusion{r||Infuse the Brew of the Grave.
-witchery.rite.spectralstone=Rite of Necromancy{r||Infuse a Spectral Stone. Perform at night.
-witchery.rite.bindspectral=Rite of Binding{r||Bind up to three spectral creatures of the same type into a Spectral Stone.
-witchery.rite.bindfetish=Rite of Binding{r||Bind spectral creatures to a Scarecrow, Trent Effigy or Witch's Ladder to create an effect.
+witchery.rite.infusebrewsoaring=Rite of Infusion§r||Infuse the Brew of Soaring.
+witchery.rite.infusebrewgrave=Rite of Infusion§r||Infuse the Brew of the Grave.
+witchery.rite.spectralstone=Rite of Necromancy§r||Infuse a Spectral Stone. Perform at night.
+witchery.rite.bindspectral=Rite of Binding§r||Bind up to three spectral creatures of the same type into a Spectral Stone.
+witchery.rite.bindfetish=Rite of Binding§r||Bind spectral creatures to a Scarecrow, Trent Effigy or Witch's Ladder to create an effect.
 witchery.rite.voodooprotectionactivated=Rite failed, player had voodoo protection.
 
 witchery.brazier.smoke.name=Graveyard Mist
@@ -720,8 +720,8 @@ witchery.brazier.invisible.desc=Vanish from sight while standing near to the bra
 witchery.brazier.wilting.name=Drain Growth
 witchery.brazier.wilting.desc=Suck the life from crops to heal nearby undead.
 
-witchery.book.burning1={o{lWitchcraft: Conjuration & Fetishes{r{r||A witch may use a Brazier to burn materials with magical purpose, and conjure that which is no longer of this world.||Place the ingredients into the brazier and ignite with a flint and tinder.
-witchery.book.burning2={o{lFetish Binding{r{r||A witch may use the Rite of Binding to bind spectral creatures to a fetish to create permanent effects.||The following pages show which beings must be bound for which effect.
+witchery.book.burning1=§o§lWitchcraft: Conjuration & Fetishes§r§r||A witch may use a Brazier to burn materials with magical purpose, and conjure that which is no longer of this world.||Place the ingredients into the brazier and ignite with a flint and tinder.
+witchery.book.burning2=§o§lFetish Binding§r§r||A witch may use the Rite of Binding to bind spectral creatures to a fetish to create permanent effects.||The following pages show which beings must be bound for which effect.
 witchery.book.burning3=Beings required:
 
 
@@ -729,13 +729,13 @@ entity.witchery.witchhunter.name=Witch Hunter
 
 item.witchery:handbow.name=Witch Hunter Pistol Crossbow
 item.witchery:hunterhat.name=Witch Hunter Hat
-item.witchery:hunterhat.tip={9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
+item.witchery:hunterhat.tip=§9Set bonuses: Protection from curses.§0|§9Enables draining bolts.§0|§9Cannot use poppets.§0
 item.witchery:huntercoat.name=Witch Hunter Coat
-item.witchery:huntercoat.tip={9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
+item.witchery:huntercoat.tip=§9Set bonuses: Protection from curses.§0|§9Enables draining bolts.§0|§9Cannot use poppets.§0
 item.witchery:hunterlegs.name=Witch Hunter Trousers
-item.witchery:hunterlegs.tip={9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
+item.witchery:hunterlegs.tip=§9Set bonuses: Protection from curses.§0|§9Enables draining bolts.§0|§9Cannot use poppets.§0
 item.witchery:hunterboots.name=Witch Hunter Boots
-item.witchery:hunterboots.tip={9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
+item.witchery:hunterboots.tip=§9Set bonuses: Protection from curses.§0|§9Enables draining bolts.§0|§9Cannot use poppets.§0
 item.witchery:shelfcompass.name=Poppet Shelf Compass
 item.witchery:ingredient.boltStake.name=Wooden Bolt
 item.witchery:ingredient.boltAntiMagic.name=Nullifying Bolt
@@ -747,13 +747,13 @@ item.witchery:ingredient.binkyhead.name=Binky's Skull
 item.witchery:potion.antidote.name=Universal Antidote
 
 item.witchery:deathscowl.name=Death's Hood
-item.witchery:deathscowl.tip={9Its gaze instils fear, causing victims to freeze.{0
+item.witchery:deathscowl.tip=§9Its gaze instils fear, causing victims to freeze.§0
 item.witchery:deathsrobe.name=Death's Robe
-item.witchery:deathsrobe.tip={9Resistant to fire.{0
+item.witchery:deathsrobe.tip=§9Resistant to fire.§0
 item.witchery:deathsfeet.name=Death's Footwear
-item.witchery:deathsfeet.tip={9Walk on water.{0
+item.witchery:deathsfeet.tip=§9Walk on water.§0
 item.witchery:deathshand.name=Hand of Death
-item.witchery:deathshand.tip={9Spectral touch ignores armor.{0|{9Death set bonus: Summon Death's Scythe{9|{9for AOE and hunger-based damage.{9
+item.witchery:deathshand.tip=§9Spectral touch ignores armor.§0|§9Death set bonus: Summon Death's Scythe§9|§9for AOE and hunger-based damage.§9
 
 witchery.rite.blackmagicdampening=Something is dissipating the magic.
 
@@ -818,7 +818,7 @@ witchery.pott.ignianima.info=Soulfire: cause pain equivalent to your own.
 witchery.pott.morsmordre=Morsmordre
 witchery.pott.morsmordre.info=Conjure the Dark Mark.
 
-witchery.rite.summonimp=Rite of Summoning{r||Call forth an Imp. The inner area must be clear 7x7x4 blocks!
+witchery.rite.summonimp=Rite of Summoning§r||Call forth an Imp. The inner area must be clear 7x7x4 blocks!
 
 
 tile.witchery:decurseteleport.name=Statue of Occluded Summons
@@ -828,16 +828,16 @@ entity.witchery.darkmark.name=Morsmordre
 item.witchery:seedsmindrake.name=Minedrake Bulb
 tile.witchery:mindrake.name=Minedrake
 
-witchery.rite.bindstatuetoplayer=Rite of Binding{r||Binds a person in the circle to the statue.
-witchery.rite.bindwaystonetoplayer=Rite of Binding{r||Create a Blooded Waystone bound to the location of a creature.
+witchery.rite.bindstatuetoplayer=Rite of Binding§r||Binds a person in the circle to the statue.
+witchery.rite.bindwaystonetoplayer=Rite of Binding§r||Create a Blooded Waystone bound to the location of a creature.
 entity.witchery.goblin.name=Hobgoblin
 entity.witchery.goblinmog.name=Mog
 entity.witchery.goblingulg.name=Gulg
 item.witchery:ingredient.waystoneCreatureBound.name=Blooded Waystone
 item.witchery:quiverofmog.name=Mog's Quiver
-item.witchery:quiverofmog.tip={9Limitless fast arrows that obliterate airborne targets.{0|{5Become tougher when close to a player with Gulg's Gurdle.{0
+item.witchery:quiverofmog.tip=§9Limitless fast arrows that obliterate airborne targets.§0|§5Become tougher when close to a player with Gulg's Gurdle.§0
 item.witchery:gurdleofgulg.name=Gulg's Gurdle
-item.witchery:gurdleofgulg.tip={9Smash enemies into the air with your bare fists.{0|{5Become tougher when close to a player with Mog's Quiver.{0
+item.witchery:gurdleofgulg.tip=§9Smash enemies into the air with your bare fists.§0|§5Become tougher when close to a player with Mog's Quiver.§0
 tile.witchery:stockade.oak.name=Oak Stockade
 tile.witchery:stockade.spruce.name=Spruce Stockade
 tile.witchery:stockade.birch.name=Birch Stockade
@@ -859,7 +859,7 @@ tile.witchery:tormentstone.name=Torment Stone
 
 tile.witchery:infinityegg.name=Infinity Egg
 item.witchery:kobolditehelm.name=Twisting Band
-item.witchery:kobolditehelm.tip={9Disorientates observers.{0
+item.witchery:kobolditehelm.tip=§9Disorientates observers.§0
 
 
 
@@ -959,7 +959,7 @@ witchery:brew.dispersal.liquid=Liquid
 witchery:brew.dispersal.splash=Splash
 witchery:brew.dispersal.triggered=Triggered
 witchery:brew.lifetime=Linger
-witchery:brew.drinkspeed={9Quaffing: %s{0
+witchery:brew.drinkspeed=§9Quaffing: %s§0
 witchery:brew.drinkspeed.veryslow=Very Slow
 witchery:brew.drinkspeed.slow=Slow
 witchery:brew.drinkspeed.veryfast=Very Fast
@@ -1116,7 +1116,7 @@ witchery.book.biomes.sandy.name=Sandy
 witchery.book.biomes.snowy.name=Snowy
 witchery.book.biomes.mesa.name=Mesa
 witchery.book.biomes.spooky.name=Spooky
-witchery.biomebook.currentpage=Current Page: {5%s{0
+witchery.biomebook.currentpage=Current Page: §5%s§0
 witchery.biomebook.rainfall=Rainfall: %s
 witchery.biomebook.snows=Snows: %s
 witchery.biomebook.lightning=Lightning: %s
@@ -1124,7 +1124,7 @@ witchery.biomebook.temperature=Temp: %s
 witchery.biomebook.temperaturehot=Temp: %s (Humid)
 witchery.no=No
 witchery.yes=Yes
-item.witchery:biomebook2.tip={oCraft the book with a piece of paper,|{oto copy the current biome page (used|{oin some rituals).
+item.witchery:biomebook2.tip=§oCraft the book with a piece of paper,|§oto copy the current biome page (used|§oin some rituals).
 
 entity.witchery.leonard.name=Shade of Leonard
 entity.witchery.lostsoul.name=Lost Soul
@@ -1427,8 +1427,8 @@ witchery.rite.wolfcurse.requirescat=A cat familiar is required.
 witchery.rite.wolfcurse.requiresfullcoven=A full coven of six additional witches is required.
 witchery.rite.wolfcurse.toofar=The werewolf is too powerful, and must be within the circle for the cure to work.
 
-witchery.rite.wolfcurse.book=Curse of the Wolf{r||Perform under a full moon with a full coven.
-witchery.rite.wolfcure.book=Rite of Remove Curse{r||Cleanse the taglocked being of lycanthropy.
+witchery.rite.wolfcurse.book=Curse of the Wolf§r||Perform under a full moon with a full coven.
+witchery.rite.wolfcure.book=Rite of Remove Curse§r||Cleanse the taglocked being of lycanthropy.
 
 witchery.werewolf.setlevel=Werewolf level set to %s.
 witchery.werewolf.chunkvisited=You feel as if you have already been here.
@@ -1472,13 +1472,13 @@ witchery.werewolf.level10progress=The voice echoes, "SLAY ONE FROM A VILLAGE, OR
 witchery.werewolf.level10complete=The voice exclaims, "YOU HAVE MASTERED MY PATH, NOW SPREAD MY BLESSING!"
 
 item.witchery:hunterhatsilvered.name=Witch Hunter Hat (Silvered)
-item.witchery:hunterhatsilvered.tip={9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
+item.witchery:hunterhatsilvered.tip=§9Werewolf protection.§0|§9Set bonuses: Protection from curses.§0|§9Enables draining bolts.§0|§9Cannot use poppets.§0
 item.witchery:huntercoatsilvered.name=Witch Hunter Coat (Silvered)
-item.witchery:huntercoatsilvered.tip={9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
+item.witchery:huntercoatsilvered.tip=§9Werewolf protection.§0|§9Set bonuses: Protection from curses.§0|§9Enables draining bolts.§0|§9Cannot use poppets.§0
 item.witchery:hunterlegssilvered.name=Witch Hunter Trousers (Silvered)
-item.witchery:hunterlegssilvered.tip={9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
+item.witchery:hunterlegssilvered.tip=§9Werewolf protection.§0|§9Set bonuses: Protection from curses.§0|§9Enables draining bolts.§0|§9Cannot use poppets.§0
 item.witchery:hunterbootssilvered.name=Witch Hunter Boots (Silvered)
-item.witchery:hunterbootssilvered.tip={9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
+item.witchery:hunterbootssilvered.tip=§9Werewolf protection.§0|§9Set bonuses: Protection from curses.§0|§9Enables draining bolts.§0|§9Cannot use poppets.§0
 
 entity.witchery.villageguard.name=Guard
 entity.witchery.vampire.name=Vampire
@@ -1527,7 +1527,7 @@ tile.witchery:shadedglass.white.name=White Shaded Glass
 
 item.witchery:glassgoblet.name=Glass Goblet
 item.witchery:glassgoblet.full=Glass Goblet (full)
-item.witchery:glassgoblet.tip=Blood: {4%s{0
+item.witchery:glassgoblet.tip=Blood: §4%s§0
 item.witchery:glassgoblet.chicken=Chicken
 item.witchery:glassgoblet.lilith=Lilith
 item.witchery:glassgoblet.convertingplayermustsleep=Victim must be asleep
@@ -1555,7 +1555,7 @@ item.witchery:sungrenade.name=Sun Grenade
 item.witchery:stew.name=Meaty Stew
 item.witchery:stewraw.name=Raw Meaty Stew
 item.witchery:canesword.name=Cane Sword
-item.witchery:canesword.tip=Sneak-Use to draw/sheathe.|Siphons blood of kills to an internal|resevoir, use when sheathed to extract.|{4Blood resevoir: %d{0
+item.witchery:canesword.tip=Sneak-Use to draw/sheathe.|Siphons blood of kills to an internal|resevoir, use when sheathed to extract.|§4Blood resevoir: %d§0
 tile.witchery:daylightcollector.name=Sun Collector
 tile.witchery:bloodcrucible.name=Blood Crucible
 
@@ -1582,7 +1582,7 @@ item.witchery:ingredient.vbookPage.name=Torn Page
 item.witchery:vampirebook.name=Observations of an Immortal
 item.witchery:vampirebook.tip=A doomed scholar's account of discourse with the undead.
 
-witchery.rite.vampirecure.book=Rite of Remove Curse{r||Cleanse the taglocked being of vampirism.
+witchery.rite.vampirecure.book=Rite of Remove Curse§r||Cleanse the taglocked being of vampirism.
 
 witchery.rite.wolfcurse.hybridsnotallow=Vampire/Werewolf hybrids are not allowed
 witchery.vampirepower.feed=Drink Blood
@@ -1636,13 +1636,13 @@ item.witchery:vampireboots.name=Vampire Oxford Boots
 item.witchery:vampireboots.tip=Set bonuses:|2 pieces - Faster drinking|3 pieces - Fire resistance|3 pieces - Mesmerize boost|4 pieces - Extended fire resistance
 
 item.witchery:hunterhatgarlicked.name=Witch Hunter Dawn Hat
-item.witchery:hunterhatgarlicked.tip={9Vampire protection.{0|{9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
+item.witchery:hunterhatgarlicked.tip=§9Vampire protection.§0|§9Werewolf protection.§0|§9Set bonuses: Protection from curses.§0|§9Enables draining bolts.§0|§9Cannot use poppets.§0
 item.witchery:huntercoatgarlicked.name=Witch Hunter Dawn Coat
-item.witchery:huntercoatgarlicked.tip={9Vampire protection.{0|{9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
+item.witchery:huntercoatgarlicked.tip=§9Vampire protection.§0|§9Werewolf protection.§0|§9Set bonuses: Protection from curses.§0|§9Enables draining bolts.§0|§9Cannot use poppets.§0
 item.witchery:hunterlegsgarlicked.name=Witch Hunter Dawn Trousers
-item.witchery:hunterlegsgarlicked.tip={9Vampire protection.{0|{9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
+item.witchery:hunterlegsgarlicked.tip=§9Vampire protection.§0|§9Werewolf protection.§0|§9Set bonuses: Protection from curses.§0|§9Enables draining bolts.§0|§9Cannot use poppets.§0
 item.witchery:hunterbootsgarlicked.name=Witch Hunter Dawn Boots
-item.witchery:hunterbootsgarlicked.tip={9Vampire protection.{0|{9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
+item.witchery:hunterbootsgarlicked.tip=§9Vampire protection.§0|§9Werewolf protection.§0|§9Set bonuses: Protection from curses.§0|§9Enables draining bolts.§0|§9Cannot use poppets.§0
 
 
 tile.witchery:mirrorblock.name=Mirror
@@ -1650,17 +1650,17 @@ tile.witchery:mirrorblock2.name=Mirror
 tile.witchery:mirrorwall.name=Mirror Surface
 item.witchery:mirror.name=Mirror
 item.witchery:dupgrenade.name=Duplication Grenade
-item.witchery:dupgrenade.tip={3Reflection of: %s{0
-item.witchery:mirror.tip.bridge={5Hollow{0
-item.witchery:mirror.tip.bridgeplus={5Hollow (%s: %d, %d, %d){0
-item.witchery:mirror.tip.inhabited={3Inhabited{0
+item.witchery:dupgrenade.tip=§3Reflection of: %s§0
+item.witchery:mirror.tip.bridge=§5Hollow§0
+item.witchery:mirror.tip.bridgeplus=§5Hollow (%s: %d, %d, %d)§0
+item.witchery:mirror.tip.inhabited=§3Inhabited§0
 entity.witchery.reflection.name=Reflection
 item.witchery:ingredient.heartofgold.name=Heart of Gold
 
-witchery.rite.infusionmirror=Rite of Infusion{r||Trap a Demon into a mirror.
+witchery.rite.infusionmirror=Rite of Infusion§r||Trap a Demon into a mirror.
 witchery:brew.animalattraction=Animal Attraction
 witchery:brew.animalrepulsion=Animal Repulsion
-witchery.rite.summonreflection=Rite of Summoning{r||Call forth the demon from a mirror. The inner area must be clear 7x7x4 blocks!
+witchery.rite.summonreflection=Rite of Summoning§r||Call forth the demon from a mirror. The inner area must be clear 7x7x4 blocks!
 witchery.rite.eclipse.cooldown=The Rite of Total Eclipse has been used recently in this world, wait a while.
 witchery.rite.mirrormirror.playersseen=Furthermore, other than thee, others have stood before me: %s
 witchery.rite.mirrormirror.playersnotseen=Furthermore, other than thee, no others have stood before me.

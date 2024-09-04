@@ -99,7 +99,7 @@ item.witchery:polynesiacharm.tip=Parla con gli Animali...
 item.witchery:devilstonguecharm.name=Incanto della Lingua di Demone
 item.witchery:devilstonguecharm.tip=Persino i demoni trovano il tuo spirito|irresistibile... per la maggior parte del tempo
 item.witchery:witchhat.name=Cappello da Strega
-item.witchery:witchhat.tip=Che originalita'... un cappello a punta.||{9+35% probabilita' di un secondo filtro{0
+item.witchery:witchhat.tip=Che originalita'... un cappello a punta.||§9+35% probabilita' di un secondo filtro§0
 item.witchery:seedsbelladonna.name=Semi di Belladonna
 item.witchery:seedsmandrake.name=Semi di Mandragola
 item.witchery:seedsartichoke.name=Semi di Carciofo d'Acqua
@@ -190,61 +190,61 @@ entity.treefyd.name=Trifide
 witchery.book.mushroomred=Fungo Rosso
 witchery.book.mushroombrown=Fungo Marrone
 witchery.book.altarpower=Energia dell'Altare
-witchery.book.oven1={o{lStregoneria{r{r{o: Raccoglimento dei Fumi{r||Il forno delle streghe da' ad un praticante dell'arte, l'opportunita' di raccogliere che possono essere prodotti durante la cottura.||Ricorda che il forno non puo' cuocere i minerali, ma funziona un po' piu' velocemente di una fornace.
-witchery.book.oven2=Metti {8Giare d'argilla{0 nel forno durantela cottura per raccogliere i fumi:||Cibo  {6Fumo Nauseante{0|Legno  {6Fumo Nauseante{0||Cuocere {2Arboscelli{0 produce {8Cenere{0 e potrebbe anche rilasciare l'essenza gassosa dell'albero.
-witchery.book.oven3={nFumi d'Arboscelli{r||Quercia  {8Esalazioni della Divinita' Cornuta{0|Faggio  {8Respiro della dea{0|Abete  {8Traccia di Rinascita{0|Sorbo Rosso  {8Spruzzo di Magia{0|Biancospino  {8odore di Purita'{0|Ontano  {8Tanfo di sfortuna{0
-witchery.book.distillery1={o{lStregoneria{r{r{o: Distillazione{r||{81.{0 Assicurati che la distilleria sia vicino ad un altare per l'energia.|{82.{0 Metti gli oggetti nella distilleria insieme al numero richiesto di Giare d'Argilla.|{83.{0 Aspetta che il processo di distillazione sia completato.
+witchery.book.oven1=§o§lStregoneria§r§r§o: Raccoglimento dei Fumi§r||Il forno delle streghe da' ad un praticante dell'arte, l'opportunita' di raccogliere che possono essere prodotti durante la cottura.||Ricorda che il forno non puo' cuocere i minerali, ma funziona un po' piu' velocemente di una fornace.
+witchery.book.oven2=Metti §8Giare d'argilla§0 nel forno durantela cottura per raccogliere i fumi:||Cibo  §6Fumo Nauseante§0|Legno  §6Fumo Nauseante§0||Cuocere §2Arboscelli§0 produce §8Cenere§0 e potrebbe anche rilasciare l'essenza gassosa dell'albero.
+witchery.book.oven3=§nFumi d'Arboscelli§r||Quercia  §8Esalazioni della Divinita' Cornuta§0|Faggio  §8Respiro della dea§0|Abete  §8Traccia di Rinascita§0|Sorbo Rosso  §8Spruzzo di Magia§0|Biancospino  §8odore di Purita'§0|Ontano  §8Tanfo di sfortuna§0
+witchery.book.distillery1=§o§lStregoneria§r§r§o: Distillazione§r||§81.§0 Assicurati che la distilleria sia vicino ad un altare per l'energia.|§82.§0 Metti gli oggetti nella distilleria insieme al numero richiesto di Giare d'Argilla.|§83.§0 Aspetta che il processo di distillazione sia completato.
 witchery.book.distillery.jars=Giare di Creta
-witchery.book.distillery.items={nDistilla questi oggetti{r
-witchery.book.distillery.results={nRisultati di Distillazione{r
-witchery.book.brews1={o{lStregoneria{r{r{o: Filtri & Infusioni{r||{81.{0 Butta gli ingredienti in un pentolone riscaldato e pieno d'acqua. Altari danno energia, se richiesta.|{82.{0 Versa il filtro in una bottiglia di vetro vuota.|{83.{0 Usa le infusioni in un rito di infusione; ma ricorda, {0La morte � quasi sempre assicurata{0.
-witchery.book.rites1={o{lStregoneria{r{r{o: Magia Rituale{r||{81.{0 Disegna cerchi usando gessi colorati, con un glifo centrale al centro. Un altare e' spesso richiesto per energia.|{82.{0 Butta gli oggetti focali nel cerchio.|{83.{0 Attiva il glifo centrale.
-witchery.book.rites2=Gesso e dimensioni:|7x7, 11x11, 15x15|{7Rituale{0, {5Altrove{0, {4Infernale{0
+witchery.book.distillery.items=§nDistilla questi oggetti§r
+witchery.book.distillery.results=§nRisultati di Distillazione§r
+witchery.book.brews1=§o§lStregoneria§r§r§o: Filtri & Infusioni§r||§81.§0 Butta gli ingredienti in un pentolone riscaldato e pieno d'acqua. Altari danno energia, se richiesta.|§82.§0 Versa il filtro in una bottiglia di vetro vuota.|§83.§0 Usa le infusioni in un rito di infusione; ma ricorda, §0La morte � quasi sempre assicurata§0.
+witchery.book.rites1=§o§lStregoneria§r§r§o: Magia Rituale§r||§81.§0 Disegna cerchi usando gessi colorati, con un glifo centrale al centro. Un altare e' spesso richiesto per energia.|§82.§0 Butta gli oggetti focali nel cerchio.|§83.§0 Attiva il glifo centrale.
+witchery.book.rites2=Gesso e dimensioni:|7x7, 11x11, 15x15|§7Rituale§0, §5Altrove§0, §4Infernale§0
 witchery.book.rites.anycircle=Qualunque cerchio permesso.
 
-witchery.rite.bindcircle=Rito d'Unione{r||Unisci i cerchi al talismano.
-witchery.rite.bindcircleportable=Rito d'Unione{r||Unisci i cerchi al talismano.
-witchery.rite.bindwaystone=Rito d'Unione{r||Collega la pietra del passaggio al luogo del rituale.
-witchery.rite.chargestone=Rito del Caricamento{r||Carica la pietra intonata.
-witchery.rite.infusionrecharge=Rito del Caricamento{r||Ricarica potere d'infusione stando nel cerchio. Dura indefinitivamente, ma richiede 40 energia al secondo.
-witchery.rite.teleporttowaystone=Rito della Transposizione{r||Teletrasportati al luogo della pietra della via (collegata).
-witchery.rite.teleportentity=Rito della Transposizione{r||Invoca la creatura o giocatore specificata dal cartellino d'identita'.
-witchery.rite.teleportironore=Rito della Transposizione{r||Transporta ferro dai minerali sottostanti.
-witchery.rite.protection=Rito della Santita'{r||I mostri non possono entrare nel cerchio. Dura indefinitivamente, ma richiede 16 energia al secondo.
-witchery.rite.imprisonment=Rito dell' Imprigionamento{r||I mostri non possono lasciare il cerchio. Dura indefinitivamente, ma richiede 16 energia al secondo.
-witchery.rite.barrier=Rito della Protezione{r||Evoca una cupola, impenetrabile ai mostri. Dura indefinitivamente, ma richiede 24 energia al secondo.
-witchery.rite.barrierlarge=Rito della Protezione{r||Evoca una cupola, impenetrabile a tutti. Dura indefinitivamente, ma richiede 28 energia al secondo.
-witchery.rite.barrierportable=Rito della Protezione{r||Invoca una cupola impenetrabile per 60 secondi.
-witchery.rite.volcano=Rito della Furia della Terra{r||Solleva un vulcano. Una pozza di lava deve trovarsi nel terreno sottostante.
-witchery.rite.storm=Rito della Furia del Cielo{r||Chiama una tempesta di fulmini dentro al cerchio.
-witchery.rite.stormlarge=Rito della Furia del Cielo{r||Chiama una tempesta di fulmini fuori al cerchio.
-witchery.rite.stormportable=Rito della Furia del Cielo{r||Chiama una tempesta di fulmini fuori al cerchio.
-witchery.rite.eclipse=Rito dell'Eclissi Totale{r||Blocca il sole.
-witchery.rite.eclipseportable=Rito dell'Eclissi Totale{r||Blocca il sole.
-witchery.rite.partearth=Rito della Rottura della Terra{r||Dividi la terra, la posizione degli oggetti determina la direzione.
-witchery.rite.raiseearth=Rito del Movimento della Terra{r||Solleva una colonna di Terra.
-witchery.rite.banishdemonportable=Rito di Allontanamento{r||Manda Demoni vicini indietro nell'Abisso.
-witchery.rite.banishdemon=Rito di Allontanamento{r||Manda Demoni vicini indietro nell'Abisso.
-witchery.rite.summondemon=Rito di Evocazione{r||Evoca un Demone. L'area interna deve essere vuota 7x7x4 blocchi!
-witchery.rite.summondemonexpensive=Rito di Evocazione{r||Evoca un Demone. L'area interna deve essere vuota 7x7x4 blocchi!
-witchery.rite.summonwither=Rito di Evocazione{r||Evoca un Wither. L'area interna deve essere vuota 7x7x4 blocchi!
-witchery.rite.summonwitherexpensive=Rito di Evocazione{r||Evoca un Wither. L'area interna deve essere vuota 7x7x4 blocchi!
-witchery.rite.infusionlight=Rito di Infusione{r||Devi stare nel cerchio.
-witchery.rite.infusionearth=Rito di Infusione{r||Devi stare nel cerchio.
-witchery.rite.infusionender=Rito di Infusione{r||Devi stare nel cerchio.
-witchery.rite.infusionhell=Rito di Infusione{r||Devi stare nel cerchio.
-witchery.rite.infusionsky=Rito di Infusione{r||Compiere di notte.
-witchery.rite.necrostone=Rito di Necromanzia{r||Crea una Pietra Necromantica. Fare di notte.
-witchery.rite.summonfamiliar=Rito di Evocazione{r||Evoca un Familiare per trovare le cose. Prova a dargli un diamante! L'area interna deve essere vuota 7x7x4 blocchi!
-witchery.rite.bindwaystonecopy=Rito d'Unione{r||Copia la locazione di una pietra del passaggio ad un'altra pietra del passaggio.
-witchery.rite.fertility=Rito della Fertilita'{r||Rende la terra vicina fertile. Cura i Villager malati.
-witchery.rite.fertilityportable=Rito della Fertilita'{r||Rende la terra vicina fertile. Cura i Villager malati.
-witchery.rite.curseblight=Maledizione della Deteroriamento{r||Rende la terra vicina infertile e sparge le infezioni.
-witchery.rite.curseblindness=Maledizione della Cecita'{r||Rende le creature vicine cieche.
-witchery.rite.hellonearth=Maledizione dell' Inferno{r||Solo notturna, usa 200 energia al secondo. 
-witchery.rite.summonwitch=Rito di Evocazione{r||Evoca una strega.  L'area interna deve essere vuota 7x7x4 blocchi!
-witchery.rite.bindwaystoneportable=Rito d'Unione{r||Collega la pietra del passaggio al luogo del rituale.
-witchery.rite.bindwaystonecopyportable=Rito d'Unione{r||Copia la locazione di una pietra del passaggio ad un'altra pietra del passaggio.
+witchery.rite.bindcircle=Rito d'Unione§r||Unisci i cerchi al talismano.
+witchery.rite.bindcircleportable=Rito d'Unione§r||Unisci i cerchi al talismano.
+witchery.rite.bindwaystone=Rito d'Unione§r||Collega la pietra del passaggio al luogo del rituale.
+witchery.rite.chargestone=Rito del Caricamento§r||Carica la pietra intonata.
+witchery.rite.infusionrecharge=Rito del Caricamento§r||Ricarica potere d'infusione stando nel cerchio. Dura indefinitivamente, ma richiede 40 energia al secondo.
+witchery.rite.teleporttowaystone=Rito della Transposizione§r||Teletrasportati al luogo della pietra della via (collegata).
+witchery.rite.teleportentity=Rito della Transposizione§r||Invoca la creatura o giocatore specificata dal cartellino d'identita'.
+witchery.rite.teleportironore=Rito della Transposizione§r||Transporta ferro dai minerali sottostanti.
+witchery.rite.protection=Rito della Santita'§r||I mostri non possono entrare nel cerchio. Dura indefinitivamente, ma richiede 16 energia al secondo.
+witchery.rite.imprisonment=Rito dell' Imprigionamento§r||I mostri non possono lasciare il cerchio. Dura indefinitivamente, ma richiede 16 energia al secondo.
+witchery.rite.barrier=Rito della Protezione§r||Evoca una cupola, impenetrabile ai mostri. Dura indefinitivamente, ma richiede 24 energia al secondo.
+witchery.rite.barrierlarge=Rito della Protezione§r||Evoca una cupola, impenetrabile a tutti. Dura indefinitivamente, ma richiede 28 energia al secondo.
+witchery.rite.barrierportable=Rito della Protezione§r||Invoca una cupola impenetrabile per 60 secondi.
+witchery.rite.volcano=Rito della Furia della Terra§r||Solleva un vulcano. Una pozza di lava deve trovarsi nel terreno sottostante.
+witchery.rite.storm=Rito della Furia del Cielo§r||Chiama una tempesta di fulmini dentro al cerchio.
+witchery.rite.stormlarge=Rito della Furia del Cielo§r||Chiama una tempesta di fulmini fuori al cerchio.
+witchery.rite.stormportable=Rito della Furia del Cielo§r||Chiama una tempesta di fulmini fuori al cerchio.
+witchery.rite.eclipse=Rito dell'Eclissi Totale§r||Blocca il sole.
+witchery.rite.eclipseportable=Rito dell'Eclissi Totale§r||Blocca il sole.
+witchery.rite.partearth=Rito della Rottura della Terra§r||Dividi la terra, la posizione degli oggetti determina la direzione.
+witchery.rite.raiseearth=Rito del Movimento della Terra§r||Solleva una colonna di Terra.
+witchery.rite.banishdemonportable=Rito di Allontanamento§r||Manda Demoni vicini indietro nell'Abisso.
+witchery.rite.banishdemon=Rito di Allontanamento§r||Manda Demoni vicini indietro nell'Abisso.
+witchery.rite.summondemon=Rito di Evocazione§r||Evoca un Demone. L'area interna deve essere vuota 7x7x4 blocchi!
+witchery.rite.summondemonexpensive=Rito di Evocazione§r||Evoca un Demone. L'area interna deve essere vuota 7x7x4 blocchi!
+witchery.rite.summonwither=Rito di Evocazione§r||Evoca un Wither. L'area interna deve essere vuota 7x7x4 blocchi!
+witchery.rite.summonwitherexpensive=Rito di Evocazione§r||Evoca un Wither. L'area interna deve essere vuota 7x7x4 blocchi!
+witchery.rite.infusionlight=Rito di Infusione§r||Devi stare nel cerchio.
+witchery.rite.infusionearth=Rito di Infusione§r||Devi stare nel cerchio.
+witchery.rite.infusionender=Rito di Infusione§r||Devi stare nel cerchio.
+witchery.rite.infusionhell=Rito di Infusione§r||Devi stare nel cerchio.
+witchery.rite.infusionsky=Rito di Infusione§r||Compiere di notte.
+witchery.rite.necrostone=Rito di Necromanzia§r||Crea una Pietra Necromantica. Fare di notte.
+witchery.rite.summonfamiliar=Rito di Evocazione§r||Evoca un Familiare per trovare le cose. Prova a dargli un diamante! L'area interna deve essere vuota 7x7x4 blocchi!
+witchery.rite.bindwaystonecopy=Rito d'Unione§r||Copia la locazione di una pietra del passaggio ad un'altra pietra del passaggio.
+witchery.rite.fertility=Rito della Fertilita'§r||Rende la terra vicina fertile. Cura i Villager malati.
+witchery.rite.fertilityportable=Rito della Fertilita'§r||Rende la terra vicina fertile. Cura i Villager malati.
+witchery.rite.curseblight=Maledizione della Deteroriamento§r||Rende la terra vicina infertile e sparge le infezioni.
+witchery.rite.curseblindness=Maledizione della Cecita'§r||Rende le creature vicine cieche.
+witchery.rite.hellonearth=Maledizione dell' Inferno§r||Solo notturna, usa 200 energia al secondo. 
+witchery.rite.summonwitch=Rito di Evocazione§r||Evoca una strega.  L'area interna deve essere vuota 7x7x4 blocchi!
+witchery.rite.bindwaystoneportable=Rito d'Unione§r||Collega la pietra del passaggio al luogo del rituale.
+witchery.rite.bindwaystonecopyportable=Rito d'Unione§r||Copia la locazione di una pietra del passaggio ad un'altra pietra del passaggio.
 
 witchery.infuse.cansetrecall=Rilascia il bottone del mouse per stabilire un punto di richiamo.
 witchery.infuse.setrecall=- Punto di richiamo stabilito a %s (%s, %s, %s).
@@ -256,23 +256,23 @@ witchery.familiar.foundsomething=OINK! %s, %s, %s.
 witchery.rite.nullfield=Il rituale non puo' cominciare, la magia rituale sta venendo nullificata in quest'area.
 tile.witchery:voidbramble.name=Rovi del Vuoto
 
-witchery.rite.naturespower=Rito della natura{r||Vitalizza un'area arida.
+witchery.rite.naturespower=Rito della natura§r||Vitalizza un'area arida.
 
 item.witchery:witchrobe.name=Vestaglia da Strega
-item.witchery:witchrobe.tip=Per la perspicace strega in giro per la citta'.||{5I Creeper ignoreranno l'indossatore.{0||{9+35% probabilita' di un secondo filtro (eccetto necromantici){0
+item.witchery:witchrobe.tip=Per la perspicace strega in giro per la citta'.||§5I Creeper ignoreranno l'indossatore.§0||§9+35% probabilita' di un secondo filtro (eccetto necromantici)§0
 
 item.witchery:necromancerrobe.name=Vestaglia da Necromante
-item.witchery:necromancerrobe.tip=Keeps the undead at bay.||{5I non-morti ignoreranno in generale l'indossatore.{0||{9+35% probabilita' di un secondo filtro necromantico{0
+item.witchery:necromancerrobe.tip=Keeps the undead at bay.||§5I non-morti ignoreranno in generale l'indossatore.§0||§9+35% probabilita' di un secondo filtro necromantico§0
 
 item.witchery:ingredient.creeperHeart.name=Cuore di Creeper
 tile.witchery:glintweed.name=Erbetta luccicante
 item.witchery:ingredient.brewLove.name=Filtro dell'Amore
 
-witchery.rite.priorincarnation=Rito della Previa Incarnazione{r||Invoca una precedente incarnazione di un giocatore (e i suoi oggetti) vicino a dove e' morto/a.
+witchery.rite.priorincarnation=Rito della Previa Incarnazione§r||Invoca una precedente incarnazione di un giocatore (e i suoi oggetti) vicino a dove e' morto/a.
 
 witchery.structure.apothecary.name=Farmacista
 
-witchery.rite.disabled=Rituale non pu� cominciare, il rito e' stato disabilitato su questo server.
+witchery.rite.disabled=Rituale non pu� cominciare, il rito e' stato disabilitato su questo server.
 witchery.rite.unknownritual=Rito sconosciuto.
 witchery.rite.missingitem=Oggetti mancanti.
 witchery.rite.missinglivingsacrifice=Creatura da sacrificio mancante.
@@ -306,24 +306,24 @@ tile.witchery:leechchest.name=Cassa Sanguisuga
 tile.witcheryLeechChest.playernotloggedin=Non puoi prendere Cartellini d'Identita' da giocatori offline: %s.
 tile.witcheryLeechChest.onlyowntaglock=Non puoi rimuovere il tuo proprio cartellino d'Identita' dalla cassa.
 
-witchery.book.herbology1={o{lStregoneria{r{r{o: Erbologia{r||Molte piante comuni sono usate nella preparazione di filtri e magie, questo libro descrive quelle rare o eccezionali piante sconosciute alla gente comune.
+witchery.book.herbology1=§o§lStregoneria§r§r§o: Erbologia§r||Molte piante comuni sono usate nella preparazione di filtri e magie, questo libro descrive quelle rare o eccezionali piante sconosciute alla gente comune.
 witchery.book.herbology.mandrake=E' una radice dalle sembianze di un uomo. Mietere di notte, nel caso si svegliasse e urlasse. Cresce su terra dissodata come il grano. L'erba alta puo' dare i suoi semi. 
-witchery.book.herbology.belladonna=Veleno Mortale, cos� questa pianta e' conosciuta, e letale tossina da essa e' rinvenuta. Cresce su terra dissodata come il grano. L'erba alta puo' dare i suoi semi.
+witchery.book.herbology.belladonna=Veleno Mortale, cos� questa pianta e' conosciuta, e letale tossina da essa e' rinvenuta. Cresce su terra dissodata come il grano. L'erba alta puo' dare i suoi semi.
 witchery.book.herbology.snowbell=Una pianta interessante, fredda come la neve, ghiaccia l'umidita' come cresce. Cresce su terra dissodata come il grano. L'erba alta puo' dare i suoi semi.
 witchery.book.herbology.artichoke=Una pianta acquatica con uno strano effetto, riempie la pancia e poi la svuota. Cresce sull'acqua. L'erba alta puo' dare i suoi semi.
-witchery.book.herbology.glintweed=Emette un bagliore innaturale che illumina l'ambiente circostante. Pu� vivere dovunque, ma si sparger� solo su terra, erba o sabbia. Trasforma questa pianta da un'altra con Mutandis.
+witchery.book.herbology.glintweed=Emette un bagliore innaturale che illumina l'ambiente circostante. Pu� vivere dovunque, ma si sparger� solo su terra, erba o sabbia. Trasforma questa pianta da un'altra con Mutandis.
 witchery.book.herbology.spanishmoss=Un muschio dalle sembianze di Creeper che cresce al meglio sugli alberi, forma le migliori bambolette possibili. Raccogli con cesoie per tenerlo intatto. Trasforma questa pianta da un'altra con Mutandis.
-witchery.book.herbology.embermoss=Una pianta con una difesa unica, quando disturbata scoppia in fiamme. Raccogli con cesoie. Puo' vivere dovunque, ma si sparger� solo su terra, erba o sabbia. Trasforma questa pianta da un'altra con Mutandis. 
+witchery.book.herbology.embermoss=Una pianta con una difesa unica, quando disturbata scoppia in fiamme. Raccogli con cesoie. Puo' vivere dovunque, ma si sparger� solo su terra, erba o sabbia. Trasforma questa pianta da un'altra con Mutandis. 
 witchery.book.herbology.voidbramble=Questi strani rovi tengono le creature a bada; perche' quando si avvicinano le teletrasporta via. Creati e alimentati con la magia, nessun rituale funzionera' vicino ad essi. 
 witchery.book.herbology.rowan=Il Sorbo Rosso, "o cenere di montagna" ha un'affinita' con la magia che altri alberi raramente possono sfidare. Trasforma l'arboscello da un'altra pianta con Mutandis.
 witchery.book.herbology.alder=Il legno d'Ontano sembra sanguinare quando tagliato, quest'albero porta sfortuna a tutti. Trasforma l'arboscello da un'altra pianta con Mutandis.
-witchery.book.herbology.hawthorn=Il biancospino � l'albero della purita', ha una lunga storia nel campo dell'erbalismo. Trasforma l'arboscello da un'altra pianta con Mutandis.
+witchery.book.herbology.hawthorn=Il biancospino � l'albero della purita', ha una lunga storia nel campo dell'erbalismo. Trasforma l'arboscello da un'altra pianta con Mutandis.
 
-witchery.rite.infusiontree=Rito di Infusione{r||Infondi un Ramo Mistico. Compiere di notte.
-witchery.rite.cursecreature1=Maledizione della Sfortuna{r||Maledici l'essere identificato. Compiere durante una tempesta.
-witchery.rite.removecurse1=Rito della Rimozione di Maledizione{r||Purifica l'essere identificato dalla sfortuna. Le cose potrebbero peggiorare.
-witchery.rite.cookfood=Rito dell'Arrostimento{r||Cuoce il cibo presente nel cerchio. Pu� sovraccucinarlo.
-witchery.rite.obstructedcircle=L'area intorno al glifo centrale non � libera di blocchi. 
+witchery.rite.infusiontree=Rito di Infusione§r||Infondi un Ramo Mistico. Compiere di notte.
+witchery.rite.cursecreature1=Maledizione della Sfortuna§r||Maledici l'essere identificato. Compiere durante una tempesta.
+witchery.rite.removecurse1=Rito della Rimozione di Maledizione§r||Purifica l'essere identificato dalla sfortuna. Le cose potrebbero peggiorare.
+witchery.rite.cookfood=Rito dell'Arrostimento§r||Cuoce il cibo presente nel cerchio. Pu� sovraccucinarlo.
+witchery.rite.obstructedcircle=L'area intorno al glifo centrale non � libera di blocchi. 
 
 witchery.infuse.branch.nocharges=Hai troppa poca energia per usare questo simbolo.
 witchery.infuse.branch.infusionrequired=Devi essere infuso per compiere magia simbolica.
@@ -356,13 +356,13 @@ witchery.pott.stupefy=Stupeficio
 entity.witchery.ent.name=Ent
 
 witchery.taglockkit.taglockfailed=Fallito raccoglimento d'Identita', l'altro giocatore se ne e' accorto!
-witchery.taglockkit.taglockdiscovered=Qualcuno ha appena provato a prendere un cartellino d'Identit� da te, ma ha fallito!
+witchery.taglockkit.taglockdiscovered=Qualcuno ha appena provato a prendere un cartellino d'Identit� da te, ma ha fallito!
 
 
 item.witchery:ingredient.doorKeyring.name=Portachiavi di Sorbo Rosso
 tile.witchery:statuegoddess.name=Statua della Dea
-witchery.rite.curseinsanity1=Maledizione della Follia{r||Maledici l'essere identificato con visioni mostruose. Compiere durante una tempesta.
-witchery.rite.removeinsanity1=Rito della Rimozione di Maledizione{r||Purifica l'essere identificato dalla follia. Le cose potrebbero peggiorare.
+witchery.rite.curseinsanity1=Maledizione della Follia§r||Maledici l'essere identificato con visioni mostruose. Compiere durante una tempesta.
+witchery.rite.removeinsanity1=Rito della Rimozione di Maledizione§r||Purifica l'essere identificato dalla follia. Le cose potrebbero peggiorare.
 tile.witcheryStatusGoddess.curemisfortune=La Dea cura la tua sfortuna.
 tile.witcheryStatusGoddess.cureinsanity=La Dea Cura la tua Follia.
 entity.witchery.illusionCreeper.name=Creeper
@@ -373,7 +373,7 @@ entity.witchery.illusionZombie.name=Zombi
 
 witchery.book.herbology.enderbramble=Questi strani rovi tengono le creature a bada; perche' quando si avvicinano le teletrasporta via. Trasforma questa pianta da canna da zucchero e barba dei frati.
 witchery.book.herbology.grassper=Una pianta interessante che trattiene tutto quello che le e' dato. Trasforma questa pianta da erba alta ed una cassa.
-witchery.book.herbology.crittersnare=Piccole creature vengono intrappolate in questa pianta, imprigionati nelle sue spire - per mai pi� uscire. Trasforma questa pianta da arboscelli d'Ontano, una ragnatela ed uno Zombi.
+witchery.book.herbology.crittersnare=Piccole creature vengono intrappolate in questa pianta, imprigionati nelle sue spire - per mai pi� uscire. Trasforma questa pianta da arboscelli d'Ontano, una ragnatela ed uno Zombi.
 
 entity.witchery.owl.name=Gufo
 entity.witchery.toad.name=Rospo
@@ -382,9 +382,9 @@ entity.witchery.louse.name=Pidocchio Parassita
 
 item.witchery:louse.name=Pidocchio Parassita
 
-witchery.rite.bindfamiliar=Rito d'Unione{r||Unisci a te come familiare un Gufo, un Rospo o un Gatto addestrati.
-witchery.rite.callfamiliar=Rito di Evocazione{r||Invoca il tuo familiare che � stato ucciso o dimesso.
-witchery.rite.corruptvoodooprotection=Maledizione della Bamboletta Corrotta{r||Distruggi la protezione Voodoo del giocatore identificato. Richiede un gatto come familiare. 
+witchery.rite.bindfamiliar=Rito d'Unione§r||Unisci a te come familiare un Gufo, un Rospo o un Gatto addestrati.
+witchery.rite.callfamiliar=Rito di Evocazione§r||Invoca il tuo familiare che � stato ucciso o dimesso.
+witchery.rite.corruptvoodooprotection=Maledizione della Bamboletta Corrotta§r||Distruggi la protezione Voodoo del giocatore identificato. Richiede un gatto come familiare. 
 witchery.rite.requirescursemastery=Questo rito puo' essere compiuto solo con un gatto come familiare.
 
 item.witchery:ingredient.brewFrogsTongue.name=Filtro della Lingua di Rana
@@ -409,7 +409,7 @@ entity.witchery.babayaga.name=Baba Yaga
 tile.witchery:crystalball.name=Palla di Cristallo
 item.witchery:ingredient.quartzSphere.name=Sfera di Quarzo
 item.witchery:ingredient.happenstanceOil.name=Olio di Coincidenza
-witchery.rite.infusionfuture=Rito di Infusione{r||Infondi una Palla di Cristallo per prevedere il Futuro. Compiere di Notte.
+witchery.rite.infusionfuture=Rito di Infusione§r||Infondi una Palla di Cristallo per prevedere il Futuro. Compiere di Notte.
 
 witchery.prediction.recharging=La Palla di Cristallo e' inerte al momento.
 witchery.prediction.nopower=La Palla di Cristallo non riceve abbastanza energia da un altare vicino.
@@ -418,18 +418,18 @@ witchery.prediction.none=Tu fissi nella Palla di Cristallo, ma il futuro di %s e
 witchery.prediction.zombie=Tu fissi nella Palla di Cristallo: %s incombera' sui non morti.
 witchery.prediction.arrowhit=Tu fissi nella Palla di Cristallo: %s sara' colpito da una freccia.
 witchery.prediction.ent=Tu fissi nella Palla di Cristallo: %s incontrera' un albero camminante.
-witchery.prediction.fall=Tu fissi nella Palla di Cristallo: %s inciampera'  e cadr�.
+witchery.prediction.fall=Tu fissi nella Palla di Cristallo: %s inciampera'  e cadr�.
 witchery.prediction.treasure=Tu fissi nella Palla di Cristallo: %s trovera' un tesoro seppellito.
-witchery.prediction.iron=Tu fissi nella Palla di Cristallo: %s sar� inondato dal ferro.
+witchery.prediction.iron=Tu fissi nella Palla di Cristallo: %s sar� inondato dal ferro.
 witchery.prediction.diamond=Tu fissi nella Palla di Cristallo: %s trovera' dei luccichini.
 witchery.prediction.emerald=Tu fissi nella Palla di Cristallo: %s trovera' dei luccichini.
 witchery.prediction.love=Tu fissi nella Palla di Cristallo: %s incontera' un oscuro ma bell' estraneo.
 witchery.prediction.babagood=Tu fissi nella Palla di Cristallo: %s ha suscitato l'interesse della fattuchiera (e le sue sorelle).
 witchery.prediction.bababad=Tu fissi nella Palla di Cristallo: %s ha irritato la fattuchiera (e le sue sorelle).
 witchery.prediction.friend=Tu fissi nella Palla di Cristallo: %s si fara' un nuovo amico.
-witchery.prediction.rescued=Tu fissi nella Palla di Cristallo: %s sar� salvato da un estraneo.
+witchery.prediction.rescued=Tu fissi nella Palla di Cristallo: %s sar� salvato da un estraneo.
 witchery.prediction.tothenether=Tu fissi nella Palla di Cristallo: %s fara' un viaggio nel Nether.
-witchery.prediction.tothenether.summoned=Un demone � stato a guardarti, e ti ha transportato nel Nether.
+witchery.prediction.tothenether.summoned=Un demone � stato a guardarti, e ti ha transportato nel Nether.
 witchery.prediction.wet=Tu fissi nella Palla di Cristallo: %s si bagnera'.
 witchery.prediction.coal=Tu fissi nella Palla di Cristallo: %s raccogliera' una provvista di carbone.
 
@@ -437,8 +437,8 @@ tile.witchery:bramble.ender.name=Rovi dell'Ender
 tile.witchery:bramble.wild.name=Rovi Selvaggi
 tile.witchery:bloodrose.name=Rosa del Sangue
 
-witchery.rite.cursesinking1=Maledizione dell' Affondamento{r||Maledici l'essere identificato con piu' peso. Compiere durante una tempesta.
-witchery.rite.removesinking1=Rito della Rimozione di Maledizione{r||Purifica l'essere indentificato dell'Affondamento. Le cose potrebbero peggiorare.
+witchery.rite.cursesinking1=Maledizione dell' Affondamento§r||Maledici l'essere identificato con piu' peso. Compiere durante una tempesta.
+witchery.rite.removesinking1=Rito della Rimozione di Maledizione§r||Purifica l'essere indentificato dell'Affondamento. Le cose potrebbero peggiorare.
 tile.witcheryStatusGoddess.curesinking=La Dea cura il tuo problema di Affondamento.
 
 witchery.book.herbology.wildbramble=Questi rovi spinosi si spargono in giro, chi riesce a domarli io profondamente ammiro . Trasforma questa pianta da Cactus e Barba dei Frati.
@@ -446,18 +446,18 @@ witchery.book.herbology.bloodrose=A tutte le streghe saggie, tenetelo in mente, 
 
 entity.witchery.covenwitch.name=Strega del Circolo
 item.witchery:ingredient.seerStone.name=Stele del Veggente
-witchery.rite.infusionseerstone=Rito di Infusione{r||Infondi una Stele per communicare nel tuo Circolo. Compiere di Notte.
-witchery.rite.climatechange=Rito delle Stagioni in Movimento{r||Scegli Bioma con l'oggetto Fulcro e Pietra Luce. Circolo di 4 o piu' Streghe.
-witchery.rite.iceshell=Rito dell'Espansione di Ghiaccio{r||Crea una sfera di Ghiaccio. Circolo di 2 o piu' Streghe.
-witchery.rite.curseoverheating=Maledizione del Surriscaldamento{r||Maledici l'essere identificato per surriscaldarsi.
-witchery.rite.cureoverheating=Rito della Rimozione di Maledizione{r||Purifica l'essere identificato dal Surriscaldamento. Le cose potrebbero peggiorare.
+witchery.rite.infusionseerstone=Rito di Infusione§r||Infondi una Stele per communicare nel tuo Circolo. Compiere di Notte.
+witchery.rite.climatechange=Rito delle Stagioni in Movimento§r||Scegli Bioma con l'oggetto Fulcro e Pietra Luce. Circolo di 4 o piu' Streghe.
+witchery.rite.iceshell=Rito dell'Espansione di Ghiaccio§r||Crea una sfera di Ghiaccio. Circolo di 2 o piu' Streghe.
+witchery.rite.curseoverheating=Maledizione del Surriscaldamento§r||Maledici l'essere identificato per surriscaldarsi.
+witchery.rite.cureoverheating=Rito della Rimozione di Maledizione§r||Purifica l'essere identificato dal Surriscaldamento. Le cose potrebbero peggiorare.
 tile.witchery:witcheryStatusGoddess.cureoverheating=La Dea cura i tuoi problemi di temperatura.
 witchery.rite.wrongdimension=Questo Rito non puo' essere compiuto in questa dimensione.
 witchery.rite.coventoosmall=Hai bisogno di piu' Streghe del Circolo per compiere questo rito.
 witchery.rite.missingbiomefoci=Manca un oggetto per specificare il bioma desiderato.
-witchery.rite.rainoffrogs=Maledizione della Pioggia di Rospi{r||Fai piovere Rospi Velenosi. Circolo di una o piu' Streghe.
-witchery.rite.glyphictransform=Rito della Trasformazione Glifica{r||Butta Gesso del colore desiderato, 1=piccolo, 2=medio, 3=grande.
-witchery.rite.callbeasts=Rito del Richiamo Bestiale{r||Richiama degli animali. Circolo di 3 o piu' Streghe.
+witchery.rite.rainoffrogs=Maledizione della Pioggia di Rospi§r||Fai piovere Rospi Velenosi. Circolo di una o piu' Streghe.
+witchery.rite.glyphictransform=Rito della Trasformazione Glifica§r||Butta Gesso del colore desiderato, 1=piccolo, 2=medio, 3=grande.
+witchery.rite.callbeasts=Rito del Richiamo Bestiale§r||Richiama degli animali. Circolo di 3 o piu' Streghe.
 
 witchery.witch.pet=Il familiare di %s
 witchery.witch.petflesh=La carne del Familiare di %s
@@ -507,36 +507,36 @@ item.witchery:ingredient.brewFlowingSpirit.name=Filtro dello Spirito che Scorre
 item.witchery:ingredient.weaveIntensity.name=Tessitore di Sogni dell'Intensita'
 item.witchery:bucketspirit.name=Secchio di Spirito
 item.witchery:bitingbelt.name=Cintura Mordente
-item.witchery:bitingbelt.tip=Attenzione... morde.||{5Combina con fino a due pozioni che vengono {0|{5amministrate quando sei colpito.{0
+item.witchery:bitingbelt.tip=Attenzione... morde.||§5Combina con fino a due pozioni che vengono §0|§5amministrate quando sei colpito.§0
 
 witchery.brew.flowingspirit=Crea solo nel Mondo degli Spiriti
 
-witchery.rite.manifest=Rito della Manifestazione{r||Manifestati come un fantasma dal Mondo degli Spiriti.
+witchery.rite.manifest=Rito della Manifestazione§r||Manifestati come un fantasma dal Mondo degli Spiriti.
 
-witchery.book.herbology.somniancotton=Una pianta che cresce solo nel sonno pi� profondo, dove trovi i sogni, ma l'incubo incombe.
+witchery.book.herbology.somniancotton=Una pianta che cresce solo nel sonno pi� profondo, dove trovi i sogni, ma l'incubo incombe.
 
 
 tile.witchery:demonheart.name=Cuore di Demone
 
 witchery.rite.optional=(Opzionale)
-witchery.rite.noplacelikehome=non c'� posto come casa
+witchery.rite.noplacelikehome=non c'� posto come casa
 witchery.rite.unknownchant=Canto sconosciuto
 witchery.rite.manifestation.countdown=Ti senti piu' corporeo, mancano solo %s secondi.
 witchery.rite.slippersoncooldown=Non succede niente (aspetta %s minuto(i)).
-witchery.rite.forestation=Rito della Foresta{r||Fai crescere una foresta, usa l'arboscello desiderato.
+witchery.rite.forestation=Rito della Foresta§r||Fai crescere una foresta, usa l'arboscello desiderato.
 witchery.rite.toofaraway=Questo Rito non puo' essere compiuto cosi' lontano (un grande circolo di streghe puo' essere richiesto).
 
-item.witchery:iceslippers.tip=Fredde a toccarle.||{5Ghiacciano l'acqua vicina e{0|{5trasformano la lava in ossidiana (danneggiandole){0
+item.witchery:iceslippers.tip=Fredde a toccarle.||§5Ghiacciano l'acqua vicina e§0|§5trasformano la lava in ossidiana (danneggiandole)§0
 item.witchery:brewbag.name=Sacca dei Filtri
 item.witchery:huntsmanspear.name=Lancia del Cacciatore
-item.witchery:huntsmanspear.tip={5Puo' invocare un lupo, se colpito mentre bloccando{0.
+item.witchery:huntsmanspear.tip=§5Puo' invocare un lupo, se colpito mentre bloccando§0.
 item.witchery:barkbelt.name=Cintura di Corteccia
-item.witchery:barkbelt.tip=Allora e' cosi' che si sente un Ent.||{5Cresceranno pezzi di corteccia mentre stai su Erba o Micelio{0|{5Pezzi di corteccia mitigano gli attacchi.{0
+item.witchery:barkbelt.tip=Allora e' cosi' che si sente un Ent.||§5Cresceranno pezzi di corteccia mentre stai su Erba o Micelio§0|§5Pezzi di corteccia mitigano gli attacchi.§0
 item.witchery:rubyslippers.name=Pantofole di Rubini
-item.witchery:rubyslippers.tip=Non c'e' posto come casa.||{5Teletrasportati usando una Pietra della Via |(Attendi 1 minuto prima di rifarlo){0|{5Teletrasportati al tuo letto |(Attendi 30 minuti prima di rifarlo){0
+item.witchery:rubyslippers.tip=Non c'e' posto come casa.||§5Teletrasportati usando una Pietra della Via |(Attendi 1 minuto prima di rifarlo)§0|§5Teletrasportati al tuo letto |(Attendi 30 minuti prima di rifarlo)§0
 item.witchery:seepingshoes.name=Scarpe Filtranti
-item.witchery:seepingshoes.tip=La rovina dei ragni delle caverne.||{5Rimuovi gli effetti di veleno{0
-item.witchery:taglockkit.boundto=Identita': {5%s{0
+item.witchery:seepingshoes.tip=La rovina dei ragni delle caverne.||§5Rimuovi gli effetti di veleno§0
+item.witchery:taglockkit.boundto=Identita': §5%s§0
 item.witchery:taglockkit.unbound=Non usato
 
 item.witchery:ingredient.bookBiomes.name=Libro dei Biomi
@@ -549,10 +549,10 @@ item.witchery:ingredient.charmDisruptedDreams.name=Incanto dei bei pensieri
 tile.witcheryStatusGoddess.curenightmare=La Dea cura i tuoi incubi.
 witchery.item.seerstone.nightmare=Maledizione dell' Incubo da Sveglio (%d)
 
-witchery.rite.cursenightmare=Maledizione dell' Incubo da Sveglio{r||Compiere durante una tempesta.
-witchery.rite.curenightmare=Rito della Rimozione di Maledizione{r||Purifica l'essere identificato dagli Incubi. Le cose potrebbero peggiorare.
+witchery.rite.cursenightmare=Maledizione dell' Incubo da Sveglio§r||Compiere durante una tempesta.
+witchery.rite.curenightmare=Rito della Rimozione di Maledizione§r||Purifica l'essere identificato dagli Incubi. Le cose potrebbero peggiorare.
 
-witchery.book.biomes1={o{lLibro dei Biomi{r{r||Comprendere i biomi nel mondo e' il primo passo nel cambiarli. In queste pagine possono essere trovati gli oggetti Fulcro e il costo di polvere di pietraluce di ciascun bioma richiesti per il {oRito delle Stagioni in Movimento{r.
+witchery.book.biomes1=§o§lLibro dei Biomi§r§r||Comprendere i biomi nel mondo e' il primo passo nel cambiarli. In queste pagine possono essere trovati gli oggetti Fulcro e il costo di polvere di pietraluce di ciascun bioma richiesti per il §oRito delle Stagioni in Movimento§r.
 witchery.book.biomes.foci=Fulcri
 witchery.book.biomes.forest.name=Foresta
 witchery.book.biomes.forest.item=Arboscello di Quercia
@@ -581,7 +581,7 @@ witchery.book.biomes.mushroom.item=Fungo Rosso
 witchery.book.biomes.magical.name=Magico
 witchery.book.biomes.magical.item=Teschio di Scheletro
 
-witchery.book.wands1={o{lStregoneria{r{r{o: Simbiologia{r||Creare simboli con un {oRamo Mistico{r, permette ad un praticante di scolpire le energie naturali.||Soltanto I praticanti {oInfusi{r possono usare questo tipo di magia.||Le maledizioni proibite richiedono l' {oInfusione Infernale{r.
+witchery.book.wands1=§o§lStregoneria§r§r§o: Simbiologia§r||Creare simboli con un §oRamo Mistico§r, permette ad un praticante di scolpire le energie naturali.||Soltanto I praticanti §oInfusi§r possono usare questo tipo di magia.||Le maledizioni proibite richiedono l' §oInfusione Infernale§r.
 witchery.book.wands.strokes=Movimenti
 witchery.book.wands.stroke.0=Sopra
 witchery.book.wands.stroke.1=Sotto
@@ -595,7 +595,7 @@ witchery.book.wands.stroke.7=Sotto-Destra
 witchery.pott.accio.info=Attira un oggetto per terra.
 witchery.pott.aguamenti.info=Crea Acqua.
 witchery.pott.alohomora.info=Apri una porta serrata.
-witchery.pott.avadakedavra.info={4Proibita{0: Maledizione della Morte.
+witchery.pott.avadakedavra.info=§4Proibita§0: Maledizione della Morte.
 witchery.pott.caveinimicum.info=Rinforza un blocco.
 witchery.pott.colloportus.info=Serra una porta.
 witchery.pott.confundus.info=Causa confusione.
@@ -607,7 +607,7 @@ witchery.pott.expelliarmus.info=Disarma il bersaglio.
 witchery.pott.flagrate.info=Cre una Runa Infernale.
 witchery.pott.flipendo.info=Spingi via il bersaglio.
 witchery.pott.impedimenta.info=Rallenta il bersaglio.
-witchery.pott.imperio.info={4Proibita{0: Controllo Mentale.
+witchery.pott.imperio.info=§4Proibita§0: Controllo Mentale.
 witchery.pott.incendio.info=Crea fuoco.
 witchery.pott.lumos.info=Crea luce.
 witchery.pott.nox.info=Estingui le luci.
@@ -619,7 +619,7 @@ item.witchery:poppet.protectArmor.name=Bamboletta di Protezione della Morte
 
 
 item.witchery:babashat.name=Cappello di Baba Yaga
-item.witchery:babashat.tip={5I giocatori infusi hanno una possibilita' di essere{0|{5teletrasportati invece di venire colpiti{0||{9+25% probabilita' di secondo filtro{0|{9+25% probabilita' di terzo filtro{0
+item.witchery:babashat.tip=§5I giocatori infusi hanno una possibilita' di essere§0|§5teletrasportati invece di venire colpiti§0||§9+25% probabilita' di secondo filtro§0|§9+25% probabilita' di terzo filtro§0
 item.witchery:boline.name=Boline
 item.witchery:boline.tip=Come le cesoie, ma puo' raccogliere|le piante trappole e le ragnatele.
 
@@ -692,11 +692,11 @@ item.witchery:ingredient.graveyardDust.name=Polvere del Cimitero
 item.witchery:swordofdeath.customname=Spada di Ricambio della Morte
 item.witchery:horseofdeath.customname=Binky
 
-witchery.rite.infusebrewsoaring=Rito di Infusione{r||Infondi il Filtro del Planare.
-witchery.rite.infusebrewgrave=Rito di Infusione{r||Infondi il Filtro della Tomba.
-witchery.rite.spectralstone=Rito di Necromanzia{r||Infondi una Pietra Spettrale. Compiere di Notte.
-witchery.rite.bindspectral=Rito d'Unione{r||Unisci fino a 3 creature spettrali dello stesso tipo in una Pietra Spettrale.
-witchery.rite.bindfetish=Rito d'Unione{r||Unisci fino a 3 creature spettrali ad uno Spaventapasseri, Effigie di Legno o Scala delle Streghe per creare un effetto.
+witchery.rite.infusebrewsoaring=Rito di Infusione§r||Infondi il Filtro del Planare.
+witchery.rite.infusebrewgrave=Rito di Infusione§r||Infondi il Filtro della Tomba.
+witchery.rite.spectralstone=Rito di Necromanzia§r||Infondi una Pietra Spettrale. Compiere di Notte.
+witchery.rite.bindspectral=Rito d'Unione§r||Unisci fino a 3 creature spettrali dello stesso tipo in una Pietra Spettrale.
+witchery.rite.bindfetish=Rito d'Unione§r||Unisci fino a 3 creature spettrali ad uno Spaventapasseri, Effigie di Legno o Scala delle Streghe per creare un effetto.
 witchery.rite.voodooprotectionactivated=Rito fallito, il giocatore ha protezione Voodoo.
 
 witchery.brazier.smoke.name=Foschia del Cimitero
@@ -720,8 +720,8 @@ witchery.brazier.invisible.desc=Svanisci dalla vista quando sei vicino al Bracie
 witchery.brazier.wilting.name=Prosciugamento della Crescita
 witchery.brazier.wilting.desc=Risucchia la vita dalle piante per guarire i non-morti vicini.
 
-witchery.book.burning1={o{lStregoneria: Braciere & Feticci{r{r||Una Strega puo' usare un Braciere per bruciare materiali per scopi magici, ed evocare quello che non e' piu' di questo mondo.||Metti gli ingredienti nel Braciere ed accendi con l'acciarino.
-witchery.book.burning2={o{lCreazione di Feticci{r{r||Una strega puo' usare un Rito d'Unione per unire creature spettrali ad un Feticcio per creare effetti permanenti.||Le pagine seguenti mostrano quali esseri devono essere uniti e per quali effetti.
+witchery.book.burning1=§o§lStregoneria: Braciere & Feticci§r§r||Una Strega puo' usare un Braciere per bruciare materiali per scopi magici, ed evocare quello che non e' piu' di questo mondo.||Metti gli ingredienti nel Braciere ed accendi con l'acciarino.
+witchery.book.burning2=§o§lCreazione di Feticci§r§r||Una strega puo' usare un Rito d'Unione per unire creature spettrali ad un Feticcio per creare effetti permanenti.||Le pagine seguenti mostrano quali esseri devono essere uniti e per quali effetti.
 witchery.book.burning3=Esseri Richiesti:
 
 
@@ -729,13 +729,13 @@ entity.witchery.witchhunter.name=Cacciatore di Streghe
 
 item.witchery:handbow.name=Balestra del Cacciatore di Streghe
 item.witchery:hunterhat.name=Cappello del Cacciatore di Streghe
-item.witchery:hunterhat.tip={9Bonus d'Armatura: Protezione dalle Maledizioni.{0|{9Permette di usare Proiettili Nullificanti.{0|{9Non puo' usare bambolette.{0
+item.witchery:hunterhat.tip=§9Bonus d'Armatura: Protezione dalle Maledizioni.§0|§9Permette di usare Proiettili Nullificanti.§0|§9Non puo' usare bambolette.§0
 item.witchery:huntercoat.name=Giacca del Cacciatore di Streghe
-item.witchery:huntercoat.tip={9Bonus d'Armatura: Protezione dalle Maledizioni.{0|{9Permette di usare Proiettili Nullificanti.{0|{9Non puo' usare bambolette.{0
+item.witchery:huntercoat.tip=§9Bonus d'Armatura: Protezione dalle Maledizioni.§0|§9Permette di usare Proiettili Nullificanti.§0|§9Non puo' usare bambolette.§0
 item.witchery:hunterlegs.name=Pantaloni del Cacciatore di Streghe
-item.witchery:hunterlegs.tip={9Bonus d'Armatura: Protezione dalle Maledizioni.{0|{9Permette di usare Proiettili Nullificanti.{0|{9Non puo' usare bambolette.{0
+item.witchery:hunterlegs.tip=§9Bonus d'Armatura: Protezione dalle Maledizioni.§0|§9Permette di usare Proiettili Nullificanti.§0|§9Non puo' usare bambolette.§0
 item.witchery:hunterboots.name=Stivali del Cacciatore di Streghe
-item.witchery:hunterboots.tip={9Bonus d'Armatura: Protezione dalle Maledizioni.{0|{9Permette di usare Proiettili Nullificanti.{0|{9Non puo' usare bambolette.{0
+item.witchery:hunterboots.tip=§9Bonus d'Armatura: Protezione dalle Maledizioni.§0|§9Permette di usare Proiettili Nullificanti.§0|§9Non puo' usare bambolette.§0
 item.witchery:shelfcompass.name=Bussola per Scaffali di Bambolette
 item.witchery:ingredient.boltStake.name=Proiettile di Legno
 item.witchery:ingredient.boltAntiMagic.name=Proiettile Nullificante
@@ -747,13 +747,13 @@ item.witchery:ingredient.binkyhead.name=Teschio di Binky
 item.witchery:potion.antidote.name=Antidoto Universale
 
 item.witchery:deathscowl.name=Cappuccio della Morte
-item.witchery:deathscowl.tip={9La sua vista inietta paura, immobilizzando i nemici.{0
+item.witchery:deathscowl.tip=§9La sua vista inietta paura, immobilizzando i nemici.§0
 item.witchery:deathsrobe.name=Tunica della Morte
-item.witchery:deathsrobe.tip={9Resistente al fuoco.{0
+item.witchery:deathsrobe.tip=§9Resistente al fuoco.§0
 item.witchery:deathsfeet.name=Calzature della Morte
-item.witchery:deathsfeet.tip={9Cammina sull'acqua.{0
+item.witchery:deathsfeet.tip=§9Cammina sull'acqua.§0
 item.witchery:deathshand.name=Mano della Morte
-item.witchery:deathshand.tip={9Tocco Spettrale ignora l'armatura.{0|{9Bonus di piena armatura: Invoca la Falce dell Morte{9|{9 per danni d'area basati sulla fame.{9
+item.witchery:deathshand.tip=§9Tocco Spettrale ignora l'armatura.§0|§9Bonus di piena armatura: Invoca la Falce dell Morte§9|§9 per danni d'area basati sulla fame.§9
 
 witchery.rite.blackmagicdampening=Qualcosa sta dissipando la magia.
 
@@ -817,7 +817,7 @@ witchery.pott.ignianima.info=Fuoco dell'Anima: causa dolore equivalente al tuo.
 witchery.pott.morsmordre=Morsmordre
 witchery.pott.morsmordre.info=Invoca il Segno Oscuro.
 
-witchery.rite.summonimp=Rito di Evocazione{r||Evoca un Diavoletto. L'area interna deve essere vuota 7x7x4 blocchi!
+witchery.rite.summonimp=Rito di Evocazione§r||Evoca un Diavoletto. L'area interna deve essere vuota 7x7x4 blocchi!
 
 
 tile.witchery:decurseteleport.name=Statua delle Invocazioni Occultate
@@ -827,16 +827,16 @@ entity.witchery.darkmark.name=Morsmordre
 item.witchery:seedsmindrake.name=Bulbo di Minedragola
 tile.witchery:mindrake.name=Minedragola
 
-witchery.rite.bindstatuetoplayer=Rito d'Unione{r||Unisce una persona nel cerchio alla statua.
-witchery.rite.bindwaystonetoplayer=Rito d'Unione{r||Crea una Pietra della Via Insanguinata unita al luogo di una creatura.
+witchery.rite.bindstatuetoplayer=Rito d'Unione§r||Unisce una persona nel cerchio alla statua.
+witchery.rite.bindwaystonetoplayer=Rito d'Unione§r||Crea una Pietra della Via Insanguinata unita al luogo di una creatura.
 entity.witchery.goblin.name=Hobgoblin
 entity.witchery.goblinmog.name=Mog
 entity.witchery.goblingulg.name=Gulg
 item.witchery:ingredient.waystoneCreatureBound.name=Pietra della Via Insanguinata
 item.witchery:quiverofmog.name=Faretra di Mog
-item.witchery:quiverofmog.tip={9Frecce infinite e veloci che obliterano i bersagli in aria.{0|{5Diventi piu' resistente quando vicino ad un giocatore con la Cinghia di Gulg.{0
+item.witchery:quiverofmog.tip=§9Frecce infinite e veloci che obliterano i bersagli in aria.§0|§5Diventi piu' resistente quando vicino ad un giocatore con la Cinghia di Gulg.§0
 item.witchery:gurdleofgulg.name=Cinghia di Gulg
-item.witchery:gurdleofgulg.tip={9Butta i nemici nell'aria con le tue mani nude.{0|{5Diventi piu' resistente quando vicino ad un giocatore con la Feretra di Mog.{0
+item.witchery:gurdleofgulg.tip=§9Butta i nemici nell'aria con le tue mani nude.§0|§5Diventi piu' resistente quando vicino ad un giocatore con la Feretra di Mog.§0
 tile.witchery:stockade.oak.name=Steccato di Quercia
 tile.witchery:stockade.spruce.name=Steccato d'Abete
 tile.witchery:stockade.birch.name=Steccato di Faggio
@@ -858,7 +858,7 @@ tile.witchery:tormentstone.name=Pietra del Tormento
 
 tile.witchery:infinityegg.name=Uovo dell'Infinito
 item.witchery:kobolditehelm.name=Banda Disorientante
-item.witchery:kobolditehelm.tip={9Disorienta gli osservatori.{0
+item.witchery:kobolditehelm.tip=§9Disorienta gli osservatori.§0
 
 
 
@@ -957,7 +957,7 @@ witchery:brew.dispersal.liquid=Liquido
 witchery:brew.dispersal.splash=Splash
 witchery:brew.dispersal.triggered=Innescato
 witchery:brew.lifetime=Durata
-witchery:brew.drinkspeed={9Bevuta: %s{0
+witchery:brew.drinkspeed=§9Bevuta: %s§0
 witchery:brew.drinkspeed.veryslow=Molto Lenta
 witchery:brew.drinkspeed.slow=Lenta
 witchery:brew.drinkspeed.veryfast=Molto veloce
@@ -1112,7 +1112,7 @@ witchery.book.biomes.sandy.name=Sabbioso
 witchery.book.biomes.snowy.name=Nevoso
 witchery.book.biomes.mesa.name=Mesa
 witchery.book.biomes.spooky.name=Spaventoso
-witchery.biomebook.currentpage=Pagina Corrente: {5%s{0
+witchery.biomebook.currentpage=Pagina Corrente: §5%s§0
 witchery.biomebook.rainfall=Precipitazione: %s
 witchery.biomebook.snows=Nevica: %s
 witchery.biomebook.lightning=Fulmini: %s
@@ -1120,7 +1120,7 @@ witchery.biomebook.temperature=Temperatura: %s
 witchery.biomebook.temperaturehot=Temperatura: %s (Humid)
 witchery.no=No
 witchery.yes=Si
-item.witchery:biomebook2.tip={oCombina il libro con una carta,|{oper copiare l'attuale pagina di bioma (usata|{oin alcuni rituali).
+item.witchery:biomebook2.tip=§oCombina il libro con una carta,|§oper copiare l'attuale pagina di bioma (usata|§oin alcuni rituali).
 
 entity.witchery.leonard.name=Ombra di Leonardo
 entity.witchery.lostsoul.name=Ombra Perduta
@@ -1419,8 +1419,8 @@ witchery.rite.wolfcurse.requirescat=Un famiglio gatto e' richiesto.
 witchery.rite.wolfcurse.requiresfullcoven=Un circolo di 6 streghe e' richiesto.
 witchery.rite.wolfcurse.toofar=Il licantropo e' troppo potente, e deve essere nel cerchio per essere curato.
 
-witchery.rite.wolfcurse.book=Maledizione del Lupo{r||Compi sotto una luna piena con circolo di streghe pieno.
-witchery.rite.wolfcure.book=Rito della Rimozione di Maledizione{r||Purifica la creatura indentificata dalla licantropia.
+witchery.rite.wolfcurse.book=Maledizione del Lupo§r||Compi sotto una luna piena con circolo di streghe pieno.
+witchery.rite.wolfcure.book=Rito della Rimozione di Maledizione§r||Purifica la creatura indentificata dalla licantropia.
 
 witchery.werewolf.setlevel=Livello di lupo mannaro impostato a %s.
 witchery.werewolf.chunkvisited=Ti senti come se fossi gia' stato qui.
@@ -1464,13 +1464,13 @@ witchery.werewolf.level10progress=La voce echeggia, "UCCIDI DA UN VILLAGGIO, O U
 witchery.werewolf.level10complete=La voce esclama, "HAI COMPLETATO LA MIA MISSIONE, ORA SPARGI LA BENEDIZIONE!"
 
 item.witchery:hunterhatsilvered.name=Cappello del cacciatore di streghe (Argentato)
-item.witchery:hunterhatsilvered.tip={9Protezione dai lupi mannari.{0|{9Bonus: Protezione dalle maledizioni.{0|{9Abilita i colpi nullificanti.{0|{9Non puo' usare bambolette.{0
+item.witchery:hunterhatsilvered.tip=§9Protezione dai lupi mannari.§0|§9Bonus: Protezione dalle maledizioni.§0|§9Abilita i colpi nullificanti.§0|§9Non puo' usare bambolette.§0
 item.witchery:huntercoatsilvered.name=Giacca del cacciatore di streghe (Argentata)
-item.witchery:huntercoatsilvered.tip={9Protezione dai lupi mannari.{0|{9Bonus: Protezione dalle maledizioni.{0|{9Abilita i colpi nullificanti.{0|{9Non puo' usare bambolette.{0
+item.witchery:huntercoatsilvered.tip=§9Protezione dai lupi mannari.§0|§9Bonus: Protezione dalle maledizioni.§0|§9Abilita i colpi nullificanti.§0|§9Non puo' usare bambolette.§0
 item.witchery:hunterlegssilvered.name=Pantaloni del cacciatore di streghe (Argentati)
-item.witchery:hunterlegssilvered.tip={9Protezione dai lupi mannari.{0|{9Bonus: Protezione dalle maledizioni.{0|{9Abilita i colpi nullificanti.{0|{9Non puo' usare bambolette.{0
+item.witchery:hunterlegssilvered.tip=§9Protezione dai lupi mannari.§0|§9Bonus: Protezione dalle maledizioni.§0|§9Abilita i colpi nullificanti.§0|§9Non puo' usare bambolette.§0
 item.witchery:hunterbootssilvered.name=Stivali del del cacciatore di streghe (Argentati)
-item.witchery:hunterbootssilvered.tip={9Protezione dai lupi mannari.{0|{9Bonus: Protezione dalle maledizioni.{0|{9Abilita i colpi nullificanti.{0|{9Non puo' usare bambolette.{0
+item.witchery:hunterbootssilvered.tip=§9Protezione dai lupi mannari.§0|§9Bonus: Protezione dalle maledizioni.§0|§9Abilita i colpi nullificanti.§0|§9Non puo' usare bambolette.§0
 
 entity.witchery.villageguard.name=Guardia
 entity.witchery.vampire.name=Vampiro
@@ -1519,7 +1519,7 @@ tile.witchery:shadedglass.white.name=Vetro Oscurato Bianco
 
 item.witchery:glassgoblet.name=Coppa di Vetro
 item.witchery:glassgoblet.full=Coppa di Vetro (Piena)
-item.witchery:glassgoblet.tip=Blood: {4%s{0
+item.witchery:glassgoblet.tip=Blood: §4%s§0
 item.witchery:glassgoblet.chicken=Pollo
 item.witchery:glassgoblet.lilith=Lilith
 item.witchery:glassgoblet.convertingplayermustsleep=La vittima deve dormire
@@ -1538,7 +1538,7 @@ item.witchery:glassgoblet.lilithquestcomplete2=Se desideri la magia, dammi un og
 item.witchery:glassgoblet.lilithquestcompletelife=Io prendo il tuo sangue, e ti regalo il mio, bevi velocemente...
 item.witchery:glassgoblet.lilithquestcompletemagic=Prendi questo, come regalo... 
 item.witchery:glassgoblet.lilithquestcompletelifefail=Mio bambino, non hai bisogno del mio sangue...
-item.witchery:glassgoblet.lilithquestcompletecure=Se cos� desideri, sei di nuovo mortale...
+item.witchery:glassgoblet.lilithquestcompletecure=Se cos� desideri, sei di nuovo mortale...
 item.witchery:glassgoblet.lilithquestcompletecurefail=Tale cosa non ha senso...
 item.witchery:glassgoblet.lilithquestcompletebatflight=Mio bambino, ti do' la liberta'...
 item.witchery:glassgoblet.lilithquestcompletebatflightfail=Tu mi aduli, ma no...
@@ -1547,7 +1547,7 @@ item.witchery:sungrenade.name=Granata Solare
 item.witchery:stew.name=Stufato di Carne
 item.witchery:stewraw.name=Stufato di Carne Crudo
 item.witchery:canesword.name=Bastone con Spada
-item.witchery:canesword.tip=Usa tenendo Shift per sfoderare.|Risucchia il sangue di uccisioni in una|riserva, che puoi estrarre con tasto destro.|{4Riserva di Sangue: %d{0
+item.witchery:canesword.tip=Usa tenendo Shift per sfoderare.|Risucchia il sangue di uccisioni in una|riserva, che puoi estrarre con tasto destro.|§4Riserva di Sangue: %d§0
 tile.witchery:daylightcollector.name=Raccoglitore di Luce Solare
 tile.witchery:bloodcrucible.name=Crogiolo del Sangue
 
@@ -1574,7 +1574,7 @@ item.witchery:ingredient.vbookPage.name=Pagina Strappata
 item.witchery:vampirebook.name=Osservazioni di un Immortale
 item.witchery:vampirebook.tip=Il diario di uno scolaro condannato sul discorso con un non-morto.
 
-witchery.rite.vampirecure.book=Rito della Rimozione di Maledizione{r||Purifica la creatura identificata dal vampirismo.
+witchery.rite.vampirecure.book=Rito della Rimozione di Maledizione§r||Purifica la creatura identificata dal vampirismo.
 
 witchery.rite.wolfcurse.hybridsnotallow=Gli Ibridi tra Licantropi e Vampiri non sono permessi
 witchery.vampirepower.feed=Bevi Sangue
@@ -1626,30 +1626,30 @@ item.witchery:vampireboots.name=Stivali da Oxford di Vampiro
 item.witchery:vampireboots.tip=Bonus del Set:|2 pezzi - Bevuta Velocizzata|3 pezzi - Resistenza al Fuoco|3 pezzi - Ipnosi piu' lunga|4 pezzi - Resistenza al Fuoco Migliorata
 
 item.witchery:hunterhatgarlicked.name=Cappello del Cacciatore dell'Aurora
-item.witchery:hunterhatgarlicked.tip={9Protezione dai vampiri.{0|{9Protezione dai Licantropi.{0|{9Bonus: Protezione dalle Maledizioni.{0|{9Abilita i proiettili nullificanti.{0|{9Non puo' usare bambolette.{0
+item.witchery:hunterhatgarlicked.tip=§9Protezione dai vampiri.§0|§9Protezione dai Licantropi.§0|§9Bonus: Protezione dalle Maledizioni.§0|§9Abilita i proiettili nullificanti.§0|§9Non puo' usare bambolette.§0
 item.witchery:huntercoatgarlicked.name=Giacca del Cacciatore dell'Aurora
-item.witchery:huntercoatgarlicked.tip={9Protezione dai vampiri.{0|{9Protezione dai Licantropi.{0|{9Bonus: Protezione dalle Maledizioni.{0|{9Abilita i proiettili nullificanti.{0|{9Non puo' usare bambolette.{0
+item.witchery:huntercoatgarlicked.tip=§9Protezione dai vampiri.§0|§9Protezione dai Licantropi.§0|§9Bonus: Protezione dalle Maledizioni.§0|§9Abilita i proiettili nullificanti.§0|§9Non puo' usare bambolette.§0
 item.witchery:hunterlegsgarlicked.name=Pantaloni del Cacciatore dell'Aurora
-item.witchery:hunterlegsgarlicked.tip={9Protezione dai vampiri.{0|{9Protezione dai Licantropi.{0|{9Bonus: Protezione dalle Maledizioni.{0|{9Abilita i proiettili nullificanti.{0|{9Non puo' usare bambolette.{0
+item.witchery:hunterlegsgarlicked.tip=§9Protezione dai vampiri.§0|§9Protezione dai Licantropi.§0|§9Bonus: Protezione dalle Maledizioni.§0|§9Abilita i proiettili nullificanti.§0|§9Non puo' usare bambolette.§0
 item.witchery:hunterbootsgarlicked.name=Stivali del Cacciatore dell'Aurora
-item.witchery:hunterbootsgarlicked.tip={9Protezione dai vampiri.{0|{9Protezione dai Licantropi.{0|{9Bonus: Protezione dalle Maledizioni.{0|{9Abilita i proiettili nullificanti.{0|{9Non puo' usare bambolette.{0
+item.witchery:hunterbootsgarlicked.tip=§9Protezione dai vampiri.§0|§9Protezione dai Licantropi.§0|§9Bonus: Protezione dalle Maledizioni.§0|§9Abilita i proiettili nullificanti.§0|§9Non puo' usare bambolette.§0
 
 tile.witchery:mirrorblock.name=Specchio
 tile.witchery:mirrorblock2.name=Specchio
 tile.witchery:mirrorwall.name=Superficie dello Specchio
 item.witchery:mirror.name=Specchio
 item.witchery:dupgrenade.name=Granata della Duplicazione
-item.witchery:dupgrenade.tip={3Riflesso di: %s{0
-item.witchery:mirror.tip.bridge={5Vuoto{0
-item.witchery:mirror.tip.bridgeplus={5Vuoto (%s: %d, %d, %d){0
-item.witchery:mirror.tip.inhabited={3Abitato{0
+item.witchery:dupgrenade.tip=§3Riflesso di: %s§0
+item.witchery:mirror.tip.bridge=§5Vuoto§0
+item.witchery:mirror.tip.bridgeplus=§5Vuoto (%s: %d, %d, %d)§0
+item.witchery:mirror.tip.inhabited=§3Abitato§0
 entity.witchery.reflection.name=Riflesso
 item.witchery:ingredient.heartofgold.name=Cuore d'Oro
 
-witchery.rite.infusionmirror=Rito di Infusione{r||Intrappola un Demone in uno Specchio.
+witchery.rite.infusionmirror=Rito di Infusione§r||Intrappola un Demone in uno Specchio.
 witchery:brew.animalattraction=Attrazione di Animali
 witchery:brew.animalrepulsion=Repulsione di Animali
-witchery.rite.summonreflection=Rito di Evocazione{r||Richiama il Demone da uno Specchio. L'area interna deve essere vuota 7x7x4 blocchi!
+witchery.rite.summonreflection=Rito di Evocazione§r||Richiama il Demone da uno Specchio. L'area interna deve essere vuota 7x7x4 blocchi!
 witchery.rite.eclipse.cooldown=Il rito di Eclissi Totali e' stato usato di recente in questo mondo, aspetta un poco.
 witchery.rite.mirrormirror.playersseen=Inoltre, dopo di te, altri sono stati in fronte a me: %s
 witchery.rite.mirrormirror.playersnotseen=Inoltre, dopo di te, nessuno e' stato in fronte a me.
