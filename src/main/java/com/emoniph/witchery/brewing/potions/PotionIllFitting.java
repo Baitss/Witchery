@@ -3,6 +3,7 @@ package com.emoniph.witchery.brewing.potions;
 import com.emoniph.witchery.brewing.potions.PotionBase;
 import com.emoniph.witchery.entity.EntityFollower;
 import com.emoniph.witchery.entity.EntityReflection;
+import net.minecraft.entity.boss.IBossDisplayData;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.ItemStack;
@@ -51,6 +52,6 @@ public class PotionIllFitting extends PotionBase {
    }
 
    public static boolean isTargetBanned(EntityLivingBase entity) {
-      return entity instanceof EntityReflection || entity instanceof EntityFollower;
+      return entity instanceof EntityReflection || entity instanceof EntityFollower || entity instanceof IBossDisplayData;
    }
 }
