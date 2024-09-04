@@ -37,7 +37,7 @@ public class GuiScreenWitchcraftBook extends GuiScreen {
    private static final ResourceLocation field_110405_a = new ResourceLocation("textures/gui/book.png");
    public static final ResourceLocation DOUBLE_BOOK_TEXTURE = new ResourceLocation("witchery", "textures/gui/bookDouble.png");
    private static final ResourceLocation[] field_110405_b = new ResourceLocation[]{new ResourceLocation("witchery", "textures/gui/circle_white_large.png"), new ResourceLocation("witchery", "textures/gui/circle_blue_large.png"), new ResourceLocation("witchery", "textures/gui/circle_red_large.png"), new ResourceLocation("witchery", "textures/gui/circle_white_medium.png"), new ResourceLocation("witchery", "textures/gui/circle_blue_medium.png"), new ResourceLocation("witchery", "textures/gui/circle_red_medium.png"), new ResourceLocation("witchery", "textures/gui/circle_white_small.png"), new ResourceLocation("witchery", "textures/gui/circle_blue_small.png"), new ResourceLocation("witchery", "textures/gui/circle_red_small.png")};
-   private static final String[] sizes = new String[]{"§715x15§0", "§515x15§0", "§415x15§0", "§711x11§0", "§511x11§0", "§411x11§0", "§77x7§0", "§57x7§0", "§47x7§0"};
+   private static final String[] sizes = new String[]{"\u00A7715x15\u00A70", "\u00A7515x15\u00A70", "\u00A7415x15\u00A70", "\u00A7711x11\u00A70", "\u00A7511x11\u00A70", "\u00A7411x11\u00A70", "\u00A777x7\u00A70", "\u00A757x7\u00A70", "\u00A747x7\u00A70"};
    private final EntityPlayer player;
    private final ItemStack itemstack;
    private int updateCount;
@@ -250,7 +250,7 @@ public class GuiScreenWitchcraftBook extends GuiScreen {
 
    private void addBiomes(Type biomeType) {
       String biomeKey = biomeType.toString().toLowerCase();
-      String title = "§n" + Witchery.resource("witchery.book.biomes." + biomeKey + ".name") + "§r" + "\n\n" + "§8" + Witchery.resource("witchery.book.biomes.foci") + ": " + Witchery.resource("witchery.book.biomes." + biomeKey + ".item") + "§0" + Const.BOOK_NEWLINE;
+      String title = "\u00A7n" + Witchery.resource("witchery.book.biomes." + biomeKey + ".name") + "\u00A7r" + "\n\n" + "\u00A78" + Witchery.resource("witchery.book.biomes.foci") + ": " + Witchery.resource("witchery.book.biomes." + biomeKey + ".item") + "\u00A70" + Const.BOOK_NEWLINE;
       BiomeGenBase[] biomes = BiomeDictionary.getBiomesForType(biomeType);
       boolean ITEMS_PER_PAGE = true;
       StringBuilder sb = new StringBuilder();
@@ -272,7 +272,7 @@ public class GuiScreenWitchcraftBook extends GuiScreen {
 
    private void addPlantPage(ItemStack plantStack, String descriptionResourceID, String imageResourceID) {
       NBTTagCompound compound = new NBTTagCompound();
-      compound.setString("Summary", "§n" + plantStack.getDisplayName() + "§r");
+      compound.setString("Summary", "\u00A7n" + plantStack.getDisplayName() + "\u00A7r");
       compound.setString("Details", Witchery.resource(descriptionResourceID));
       compound.setString("Image", imageResourceID);
       this.bookPages.appendTag(compound);
@@ -280,7 +280,7 @@ public class GuiScreenWitchcraftBook extends GuiScreen {
 
    private void addPlantPage(Block plantBlock, String descriptionResourceID, String imageResourceID) {
       NBTTagCompound compound = new NBTTagCompound();
-      compound.setString("Summary", "§n" + plantBlock.getLocalizedName() + "§r");
+      compound.setString("Summary", "\u00A7n" + plantBlock.getLocalizedName() + "\u00A7r");
       compound.setString("Details", Witchery.resource(descriptionResourceID));
       compound.setString("Image", imageResourceID);
       this.bookPages.appendTag(compound);

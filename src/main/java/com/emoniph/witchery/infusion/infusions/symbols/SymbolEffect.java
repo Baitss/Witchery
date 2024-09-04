@@ -79,9 +79,9 @@ public abstract class SymbolEffect {
 
    public String getDescription() {
       StringBuffer sb = new StringBuffer();
-      sb.append("§n");
+      sb.append("\u00A7n");
       sb.append(Witchery.resource(this.unlocalisedName));
-      sb.append("§r");
+      sb.append("\u00A7r");
       sb.append(Const.BOOK_NEWLINE);
       sb.append(Const.BOOK_NEWLINE);
       String descKey = this.unlocalisedName + ".info";
@@ -92,9 +92,9 @@ public abstract class SymbolEffect {
          sb.append(Const.BOOK_NEWLINE);
       }
 
-      sb.append("§8");
+      sb.append("\u00A78");
       sb.append(Witchery.resource("witchery.book.wands.strokes"));
-      sb.append("§0");
+      sb.append("\u00A70");
       sb.append(Const.BOOK_NEWLINE);
       int i = 1;
       byte[] arr$ = this.defaultStrokes;

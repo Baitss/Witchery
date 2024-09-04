@@ -20,11 +20,11 @@ class GuiButtonUrl extends GuiButton {
 
    public void drawButton(Minecraft mc, int mouseX, int mouseY) {
       if(super.visible) {
-         String FORMAT_CHAR = "§";
-         String FORMAT_CLEAR = "§r";
+         String FORMAT_CHAR = "\u00A7";
+         String FORMAT_CLEAR = "\u00A7r";
          boolean flag = mouseX >= super.xPosition && mouseY >= super.yPosition && mouseX < super.xPosition + super.width && mouseY < super.yPosition + super.height;
          GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
-         mc.fontRenderer.drawString("§n" + super.displayString + "§r", super.xPosition, super.yPosition, flag?16711680:255);
+         mc.fontRenderer.drawString("\u00A7n" + super.displayString + "\u00A7r", super.xPosition, super.yPosition, flag?16711680:255);
       }
 
    }

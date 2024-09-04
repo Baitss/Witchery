@@ -266,8 +266,8 @@ public class GuiScreenMarkupBook extends GuiScreen {
       private final StringBuilder attribute;
       private final StringBuilder text;
       private GuiScreenMarkupBook.Element.Capture capture;
-      private static final String FORMAT_CHAR = "§";
-      private static final String FORMAT_CLEAR = "§r";
+      private static final String FORMAT_CHAR = "\u00A7";
+      private static final String FORMAT_CLEAR = "\u00A7r";
       private static final Hashtable FORMATS = getFormats();
       private GuiButtonUrl button;
 
@@ -313,27 +313,27 @@ public class GuiScreenMarkupBook extends GuiScreen {
 
       private static Hashtable getFormats() {
          Hashtable formats = new Hashtable();
-         formats.put("black", "§0");
-         formats.put("darkblue", "§1");
-         formats.put("darkgreen", "§2");
-         formats.put("darkaqua", "§3");
-         formats.put("darkred", "§4");
-         formats.put("darkpurple", "§5");
-         formats.put("darkyellow", "§6");
-         formats.put("gray", "§7");
-         formats.put("darkgray", "§8");
-         formats.put("blue", "§9");
-         formats.put("green", "§a");
-         formats.put("aqua", "§b");
-         formats.put("red", "§c");
-         formats.put("purple", "§d");
-         formats.put("yellow", "§e");
-         formats.put("white", "§f");
-         formats.put("b", "§l");
-         formats.put("s", "§m");
-         formats.put("u", "§n");
-         formats.put("i", "§o");
-         formats.put("h1", "§3§o");
+         formats.put("black", "\u00A70");
+         formats.put("darkblue", "\u00A71");
+         formats.put("darkgreen", "\u00A72");
+         formats.put("darkaqua", "\u00A73");
+         formats.put("darkred", "\u00A74");
+         formats.put("darkpurple", "\u00A75");
+         formats.put("darkyellow", "\u00A76");
+         formats.put("gray", "\u00A77");
+         formats.put("darkgray", "\u00A78");
+         formats.put("blue", "\u00A79");
+         formats.put("green", "\u00A7a");
+         formats.put("aqua", "\u00A7b");
+         formats.put("red", "\u00A7c");
+         formats.put("purple", "\u00A7d");
+         formats.put("yellow", "\u00A7e");
+         formats.put("white", "\u00A7f");
+         formats.put("b", "\u00A7l");
+         formats.put("s", "\u00A7m");
+         formats.put("u", "\u00A7n");
+         formats.put("i", "\u00A7o");
+         formats.put("h1", "\u00A73\u00A7o");
          return formats;
       }
 
@@ -526,7 +526,7 @@ public class GuiScreenMarkupBook extends GuiScreen {
 
                   } else if(!tag.equals("next")) {
                      String preText = FORMATS.containsKey(tag)?(String)FORMATS.get(tag):"";
-                     postText = FORMATS.containsKey(tag)?"§r":"";
+                     postText = FORMATS.containsKey(tag)?"\u00A7r":"";
                      String[] words = this.text.toString().split("(?<=\\s)");
                      String[] arr$ = words;
                      len$ = words.length;

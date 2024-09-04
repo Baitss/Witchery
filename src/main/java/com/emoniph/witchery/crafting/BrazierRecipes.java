@@ -324,9 +324,9 @@ public class BrazierRecipes {
 
       public String getDescription() {
          StringBuffer sb = new StringBuffer();
-         sb.append("§n");
+         sb.append("\u00A7n");
          sb.append(Witchery.resource(this.unlocalizedName + ".name"));
-         sb.append("§r");
+         sb.append("\u00A7r");
          sb.append(Const.BOOK_NEWLINE);
          sb.append(Const.BOOK_NEWLINE);
          String description = Witchery.resource(this.unlocalizedName + ".desc");
@@ -341,7 +341,7 @@ public class BrazierRecipes {
 
          for(int i$ = 0; i$ < len$; ++i$) {
             ItemStack stack = arr$[i$];
-            sb.append("§8>§0 ");
+            sb.append("\u00A78>\u00A70 ");
             if(stack.getItem() == Item.getItemFromBlock(Blocks.red_mushroom)) {
                sb.append(Witchery.resource("witchery.book.mushroomred"));
             } else if(stack.getItem() == Item.getItemFromBlock(Blocks.brown_mushroom)) {

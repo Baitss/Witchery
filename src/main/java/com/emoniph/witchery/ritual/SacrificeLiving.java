@@ -30,7 +30,7 @@ public class SacrificeLiving extends Sacrifice {
          s = "generic";
       }
 
-      sb.append("§8>§0 ");
+      sb.append("\u00A78>\u00A70 ");
       sb.append(StatCollector.translateToLocal("entity." + s + ".name"));
       sb.append(Const.BOOK_NEWLINE);
    }

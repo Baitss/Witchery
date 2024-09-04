@@ -66,7 +66,7 @@ public class ItemParasyticLouse extends ItemBase {
          PotionEffect effect = (PotionEffect)effects.get(0);
          String s1 = effect.getEffectName();
          s1 = s1 + ".postfix";
-         String s2 = "§6" + StatCollector.translateToLocal(s1).trim() + "§r";
+         String s2 = "\u00A76" + StatCollector.translateToLocal(s1).trim() + "\u00A7r";
          if(effect.getAmplifier() > 0) {
             s2 = s2 + " " + StatCollector.translateToLocal("potion.potency." + effect.getAmplifier()).trim();
          }

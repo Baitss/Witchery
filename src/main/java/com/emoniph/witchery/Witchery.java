@@ -287,7 +287,7 @@ public class Witchery {
 
    public static String resource(String id) {
       String s = StatCollector.translateToLocal(id);
-      return s.replace("|", "\n").replace("{", "§");
+      return s.replace("|", "\n").replace("{", "\u00A7");
    }
 
 

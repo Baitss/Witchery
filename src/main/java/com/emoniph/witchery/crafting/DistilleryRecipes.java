@@ -120,7 +120,7 @@ public class DistilleryRecipes {
          for(i$ = 0; i$ < len$; ++i$) {
             stack = arr$[i$];
             if(stack != null) {
-               sb.append("§8>§0 ");
+               sb.append("\u00A78>\u00A70 ");
                if(stack.getItem() == Item.getItemFromBlock(Blocks.red_mushroom)) {
                   sb.append(Witchery.resource("witchery.book.mushroomred"));
                } else if(stack.getItem() == Item.getItemFromBlock(Blocks.brown_mushroom)) {
@@ -150,7 +150,7 @@ public class DistilleryRecipes {
             }
          }
 
-         sb.append(String.format("\n§8%s§0 %d\n", new Object[]{Witchery.resource("witchery.book.distillery.jars"), Integer.valueOf(this.jars)}));
+         sb.append(String.format("\n\u00A78%s\u00A70 %d\n", new Object[]{Witchery.resource("witchery.book.distillery.jars"), Integer.valueOf(this.jars)}));
          sb.append(Const.BOOK_NEWLINE);
          sb.append(Witchery.resource("witchery.book.distillery.results"));
          sb.append(Const.BOOK_NEWLINE);
@@ -161,7 +161,7 @@ public class DistilleryRecipes {
          for(i$ = 0; i$ < len$; ++i$) {
             stack = arr$[i$];
             if(stack != null) {
-               sb.append("§8>§0 ");
+               sb.append("\u00A78>\u00A70 ");
                if(stack.getItem() == Item.getItemFromBlock(Blocks.red_mushroom)) {
                   sb.append(Witchery.resource("witchery.book.mushroomred"));
                } else if(stack.getItem() == Item.getItemFromBlock(Blocks.brown_mushroom)) {

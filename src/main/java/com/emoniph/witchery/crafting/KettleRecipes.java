@@ -191,9 +191,9 @@ public class KettleRecipes {
 
       public String getDescription() {
          StringBuffer sb = new StringBuffer();
-         sb.append("§n");
+         sb.append("\u00A7n");
          sb.append(this.output.getDisplayName());
-         sb.append("§r");
+         sb.append("\u00A7r");
          sb.append(Const.BOOK_NEWLINE);
          sb.append(Const.BOOK_NEWLINE);
          if(this.unlocalizedName != null && !this.unlocalizedName.isEmpty()) {
@@ -210,7 +210,7 @@ public class KettleRecipes {
 
          for(int i$ = 0; i$ < len$; ++i$) {
             ItemStack stack = var9[i$];
-            sb.append("§8>§0 ");
+            sb.append("\u00A78>\u00A70 ");
             if(stack.getItem() == Item.getItemFromBlock(Blocks.red_mushroom)) {
                sb.append(Witchery.resource("witchery.book.mushroomred"));
             } else if(stack.getItem() == Item.getItemFromBlock(Blocks.brown_mushroom)) {
@@ -240,7 +240,7 @@ public class KettleRecipes {
          }
 
          if(this.power > 0.0F) {
-            sb.append(String.format("\n§8%s§0 %s\n", new Object[]{Witchery.resource("witchery.book.altarpower"), Integer.valueOf(MathHelper.floor_float(this.power))}));
+            sb.append(String.format("\n\u00A78%s\u00A70 %s\n", new Object[]{Witchery.resource("witchery.book.altarpower"), Integer.valueOf(MathHelper.floor_float(this.power))}));
          }
 
          return sb.toString();

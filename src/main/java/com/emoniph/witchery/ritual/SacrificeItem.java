@@ -42,7 +42,7 @@ public class SacrificeItem extends Sacrifice {
 
       for(int i$ = 0; i$ < len$; ++i$) {
          ItemStack itemstack = arr$[i$];
-         sb.append("§8>§0 ");
+         sb.append("\u00A78>\u00A70 ");
          if(itemstack.getItem() == Items.potionitem) {
             List list = Items.potionitem.getEffects(itemstack);
             if(list != null && !list.isEmpty()) {

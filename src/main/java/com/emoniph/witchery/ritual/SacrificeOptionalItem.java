@@ -38,7 +38,7 @@ public class SacrificeOptionalItem extends SacrificeItem {
 
       for(int i$ = 0; i$ < len$; ++i$) {
          ItemStack itemstack = arr$[i$];
-         sb.append("§8> ");
+         sb.append("\u00A78> ");
          if(itemstack.getItem() == Items.potionitem) {
             List list = Items.potionitem.getEffects(itemstack);
             if(list != null && !list.isEmpty()) {
@@ -62,7 +62,7 @@ public class SacrificeOptionalItem extends SacrificeItem {
 
          sb.append(" ");
          sb.append(Witchery.resource("witchery.rite.optional"));
-         sb.append("§0");
+         sb.append("\u00A70");
          sb.append(Const.BOOK_NEWLINE);
       }
 

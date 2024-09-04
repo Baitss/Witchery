@@ -115,9 +115,9 @@ public class RiteRegistry {
 
       public String getDescription() {
          StringBuffer sb = new StringBuffer();
-         sb.append("§n");
+         sb.append("\u00A7n");
          sb.append(this.getLocalizedName());
-         sb.append("§r");
+         sb.append("\u00A7r");
          sb.append(Const.BOOK_NEWLINE);
          sb.append(Const.BOOK_NEWLINE);
          this.initialSacrifice.addDescription(sb);

@@ -67,9 +67,9 @@ public abstract class InfusedSpiritEffect {
 
    public String getDescription() {
       StringBuffer sb = new StringBuffer();
-      sb.append("§n");
+      sb.append("\u00A7n");
       sb.append(this.getDisplayName());
-      sb.append("§r");
+      sb.append("\u00A7r");
       sb.append(Const.BOOK_NEWLINE);
       sb.append(Const.BOOK_NEWLINE);
       String description = Witchery.resource("witchery.fetish." + this.unlocalizedName + ".desc");
@@ -83,22 +83,22 @@ public abstract class InfusedSpiritEffect {
       sb.append(Const.BOOK_NEWLINE);
       sb.append(Const.BOOK_NEWLINE);
       if(this.spirits > 0) {
-         sb.append(String.format("§8>§0  %s: %d", new Object[]{Witchery.resource("entity.witchery.spirit.name"), Integer.valueOf(this.spirits)}));
+         sb.append(String.format("\u00A78>\u00A70  %s: %d", new Object[]{Witchery.resource("entity.witchery.spirit.name"), Integer.valueOf(this.spirits)}));
          sb.append(Const.BOOK_NEWLINE);
       }
 
       if(this.spectres > 0) {
-         sb.append(String.format("§8>§0  %s: %d", new Object[]{Witchery.resource("entity.witchery.spectre.name"), Integer.valueOf(this.spectres)}));
+         sb.append(String.format("\u00A78>\u00A70  %s: %d", new Object[]{Witchery.resource("entity.witchery.spectre.name"), Integer.valueOf(this.spectres)}));
          sb.append(Const.BOOK_NEWLINE);
       }
 
       if(this.banshees > 0) {
-         sb.append(String.format("§8>§0  %s: %d", new Object[]{Witchery.resource("entity.witchery.banshee.name"), Integer.valueOf(this.banshees)}));
+         sb.append(String.format("\u00A78>\u00A70  %s: %d", new Object[]{Witchery.resource("entity.witchery.banshee.name"), Integer.valueOf(this.banshees)}));
          sb.append(Const.BOOK_NEWLINE);
       }
 
       if(this.poltergeists > 0) {
-         sb.append(String.format("§8>§0  %s: %d", new Object[]{Witchery.resource("entity.witchery.poltergeist.name"), Integer.valueOf(this.poltergeists)}));
+         sb.append(String.format("\u00A78>\u00A70  %s: %d", new Object[]{Witchery.resource("entity.witchery.poltergeist.name"), Integer.valueOf(this.poltergeists)}));
          sb.append(Const.BOOK_NEWLINE);
       }
 

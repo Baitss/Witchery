@@ -249,7 +249,7 @@ public class ItemWitchesClothes extends ItemArmor {
             var13 = (PotionEffect)var12.get(0);
             s1 = var13.getEffectName();
             s1 = s1 + ".postfix";
-            s2 = "§6" + StatCollector.translateToLocal(s1).trim() + "§r";
+            s2 = "\u00A76" + StatCollector.translateToLocal(s1).trim() + "\u00A7r";
             if(var13.getAmplifier() > 0) {
                s2 = s2 + " " + StatCollector.translateToLocal("potion.potency." + var13.getAmplifier()).trim();
             }
@@ -269,7 +269,7 @@ public class ItemWitchesClothes extends ItemArmor {
             var13 = (PotionEffect)var12.get(0);
             s1 = var13.getEffectName();
             s1 = s1 + ".postfix";
-            s2 = "§6" + StatCollector.translateToLocal(s1).trim() + "§r";
+            s2 = "\u00A76" + StatCollector.translateToLocal(s1).trim() + "\u00A7r";
             if(var13.getAmplifier() > 0) {
                s2 = s2 + " " + StatCollector.translateToLocal("potion.potency." + var13.getAmplifier()).trim();
             }
