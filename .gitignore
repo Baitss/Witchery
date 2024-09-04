@@ -10,3 +10,4 @@ $RECYCLE.BIN/
 .DS_Store
 /fb/
 *.bak
+/.vscode/
