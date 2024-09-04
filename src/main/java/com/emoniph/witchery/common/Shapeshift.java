@@ -21,6 +21,7 @@ import com.google.common.collect.Multimap;
 import cpw.mods.fml.common.network.simpleimpl.IMessage;
 import cpw.mods.fml.relauncher.ReflectionHelper;
 import java.lang.reflect.Field;
+import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 import java.util.UUID;
@@ -60,6 +61,7 @@ public class Shapeshift {
    public static final AttributeModifier SPEED_MODIFIER = new AttributeModifier(UUID.fromString("10536417-7AA6-4033-A598-8E934CA77D98"), "witcheryWolfSpeed", 0.5D, 2);
    public static final AttributeModifier DAMAGE_MODIFIER = new AttributeModifier(UUID.fromString("46C5271C-193B-4D41-9CAB-D071AAEE9D4A"), "witcheryWolfDamage", 6.0D, 2);
    public static final AttributeModifier HEALTH_MODIFIER = new AttributeModifier(UUID.fromString("615920F9-6675-4779-8B18-6A62A3671E94"), "witcheryWolfHealth", 40.0D, 0);
+   public static final AttributeModifier WEAPON_DAMAGE_ADJUST_MODIFIER = new AttributeModifier(UUID.fromString("46C5271C-193B-4D41-9CAB-D071AAEE9D4B"), "witcheryWeaponDamage", 0.0D, 0);
    private static Field fieldExperienceValue;
 
 
@@ -111,6 +113,21 @@ public class Shapeshift {
          }
       }
 
+      if(!player.worldObj.isRemote) {
+         BaseAttributeMap playerAttributes = player.getAttributeMap();
+
+         if(this.isWolfAnimalForm(playerEx) && this.itemHasDamageAttribute(player.getHeldItem()) && !Config.instance().allowWerewolfHandleWeapon) {
+            Multimap modifiers = player.getHeldItem().getAttributeModifiers();
+            double damage = 0.0;
+            Collection<AttributeModifier> damageModifiers = modifiers.get(SharedMonsterAttributes.attackDamage.getAttributeUnlocalizedName());
+            for (AttributeModifier modifier : damageModifiers) {
+               damage += modifier.getAmount();
+            }
+            this.applyModifier(SharedMonsterAttributes.attackDamage, WEAPON_DAMAGE_ADJUST_MODIFIER, 0 - damage, playerAttributes);
+         } else {
+            this.removeModifier(SharedMonsterAttributes.attackDamage, WEAPON_DAMAGE_ADJUST_MODIFIER, playerAttributes);
+         }
+      }
    }
 
    public float updateFallState(EntityPlayer player, float distance) {
@@ -145,9 +162,6 @@ public class Shapeshift {
 
    public void updateChargeDamage(LivingHurtEvent event, EntityPlayer player, ExtendedPlayer playerEx) {
       if(this.isWolfAnimalForm(playerEx)) {
-         if(this.itemHasDamageAttribute(player.getHeldItem()) && !Config.instance().allowWerewolfHandleWeapon) {
-            event.ammount = 2.0F;
-         }
          Shapeshift.StatBoost ACCELERATION = this.getStatBoost(player, playerEx);
          if(ACCELERATION != null && player.isSprinting()) {
             event.ammount += ACCELERATION.damage;

@@ -833,21 +833,21 @@ public class GenericEvents {
          Shapeshift.INSTANCE.updatePlayerState(player, playerEx);
          playerEx.tick();
          if(playerEx.isVampire()) {
-            int closestVillage = player.getFoodStats().prevFoodLevel;
-            int isWolfman = player.getFoodStats().getFoodLevel();
-            if(closestVillage < isWolfman) {
+            int prevHunger = player.getFoodStats().getPrevFoodLevel();
+            int hunger = player.getFoodStats().getFoodLevel();
+            if(prevHunger < hunger) {
                player.getFoodStats().addStats(-player.getFoodStats().getFoodLevel(), 0.0F);
             }
          }
 
          if(event.entity.ticksExisted % 40 == 1) {
             if(playerEx.getWerewolfLevel() > 0) {
-               boolean closestVillage1 = CreatureUtil.isFullMoon(player.worldObj);
+               boolean isFullMoon = CreatureUtil.isFullMoon(player.worldObj);
                switch(GenericEvents.NamelessClass2021840805.$SwitchMap$com$emoniph$witchery$util$TransformCreature[playerEx.getCreatureType().ordinal()]) {
                case 1:
                case 2:
                   boolean isWolfman1 = playerEx.getCreatureType() == TransformCreature.WOLFMAN;
-                  if(!closestVillage1 && !player.inventory.hasItem(Witchery.Items.MOON_CHARM) && !ItemMoonCharm.isWolfsbaneActive(player, playerEx)) {
+                  if(!isFullMoon && !player.inventory.hasItem(Witchery.Items.MOON_CHARM) && !ItemMoonCharm.isWolfsbaneActive(player, playerEx)) {
                      Shapeshift.INSTANCE.shiftTo(player, TransformCreature.NONE);
                      ParticleEffect.EXPLODE.send(SoundEffect.RANDOM_FIZZ, player, 1.5D, 1.5D, 16);
                   } else {
@@ -855,7 +855,7 @@ public class GenericEvents {
                   }
                   break;
                case 3:
-                  if(closestVillage1 && !player.inventory.hasItem(Witchery.Items.MOON_CHARM) && !ItemMoonCharm.isWolfsbaneActive(player, playerEx)) {
+                  if(isFullMoon && !player.inventory.hasItem(Witchery.Items.MOON_CHARM) && !ItemMoonCharm.isWolfsbaneActive(player, playerEx)) {
                      Shapeshift.INSTANCE.shiftTo(player, TransformCreature.WOLF);
                      ParticleEffect.EXPLODE.send(SoundEffect.WITCHERY_MOB_WOLFMAN_HOWL, player, 1.5D, 1.5D, 16);
                      updateWerewolfEffects(player, false);
@@ -883,8 +883,8 @@ public class GenericEvents {
                }
 
                if(playerEx.getVampireLevel() == 7 && playerEx.canIncreaseVampireLevel()) {
-                  Village closestVillage2 = player.worldObj.villageCollectionObj.findNearestVillage(MathHelper.floor_double(player.posX), MathHelper.floor_double(player.posY), MathHelper.floor_double(player.posZ), 32);
-                  if(closestVillage2 != null && playerEx.storeVampireQuestChunk(closestVillage2.getCenter().posX >> 4, closestVillage2.getCenter().posZ >> 4)) {
+                  Village closestVillage = player.worldObj.villageCollectionObj.findNearestVillage(MathHelper.floor_double(player.posX), MathHelper.floor_double(player.posY), MathHelper.floor_double(player.posZ), 32);
+                  if(closestVillage != null && playerEx.storeVampireQuestChunk(closestVillage.getCenter().posX >> 4, closestVillage.getCenter().posZ >> 4)) {
                      if(playerEx.getVampireQuestCounter() >= 3) {
                         playerEx.increaseVampireLevel();
                      } else {

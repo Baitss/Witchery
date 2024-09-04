@@ -991,7 +991,7 @@ public class ExtendedPlayer implements IExtendedEntityProperties {
 
    public void checkSleep(boolean start) {
       if(start) {
-         if(this.isVampire() && this.player.sleeping && this.player.worldObj.isDaytime()) {
+         if(this.isVampire() && this.player.isPlayerSleeping() && this.player.worldObj.isDaytime()) {
             this.resetSleep = true;
             this.cachedSky = this.player.worldObj.skylightSubtracted;
             this.player.worldObj.skylightSubtracted = 4;

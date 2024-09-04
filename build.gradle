@@ -9,9 +9,12 @@ buildscript {
             name = "sonatype"
             url = "https://oss.sonatype.org/content/repositories/snapshots/"
         }
+        // maven {
+        //     url = "https://jitpack.io"
+        // }
     }
     dependencies {
-        classpath ('com.anatawa12.forge:ForgeGradle:1.2-1.1.+') {changing = true}
+        classpath ('com.anatawa12.forge:ForgeGradle:1.2-1.0.+')
     }
 }
 
