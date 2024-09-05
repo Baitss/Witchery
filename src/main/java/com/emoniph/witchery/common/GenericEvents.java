@@ -832,13 +832,13 @@ public class GenericEvents {
          ExtendedPlayer playerEx = ExtendedPlayer.get(player);
          Shapeshift.INSTANCE.updatePlayerState(player, playerEx);
          playerEx.tick();
-         if(playerEx.isVampire()) {
-            int prevHunger = player.getFoodStats().getPrevFoodLevel();
-            int hunger = player.getFoodStats().getFoodLevel();
-            if(prevHunger < hunger) {
-               player.getFoodStats().addStats(-player.getFoodStats().getFoodLevel(), 0.0F);
-            }
-         }
+         // if(playerEx.isVampire()) {
+         //    int prevHunger = player.getFoodStats().getPrevFoodLevel();
+         //    int hunger = player.getFoodStats().getFoodLevel();
+         //    if(prevHunger < hunger) {
+         //       player.getFoodStats().addStats(-player.getFoodStats().getFoodLevel(), 0.0F);
+         //    }
+         // }
 
          if(event.entity.ticksExisted % 40 == 1) {
             if(playerEx.getWerewolfLevel() > 0) {
